@@ -1,0 +1,191 @@
+@@include('../HTMLparts/header.html',{
+"lang":"uk",
+"description":"Оболонський проспект 30, курси англійської мови, наші телефони.",
+"title":"Наші контакти. Курси англійської на Оболоні. Англійська мова online skype and zoom",
+"keywords":"Курси англійської в Києві, школа англійської мови Київ, уроки англійської в Києві, наші контакти, телефони, репетитор, online, skype, вчитель англійської, англійська в групах",
+"ogTitle":"Оболонський проспект 30, курси англійської мови, наші телефони.",
+"ogUrl":"contact-us.html",
+"ogImage":"img/logoIcon.png",
+"ogSiteName":"Курси англійської для дітей та дорослих. Підготовка до ЗНО, підготовка до IELTS з англійської",
+"iconScr":"img/logoIcon.png",
+"styleHref":"styles/style.min.css",
+})
+<body>
+<div class="container-fluid">
+    <!--    .............navBar..................     -->
+
+    @@include('../HTMLparts/navBar.html', {
+    "navbarBrandHref":"/",
+    "imgSrc":"img/logo2.png",
+    "img2SrcMini":"img/logo.png",
+    "linkLanguageHref":"ru/contact-us.html",
+    "linkLanguageHrefValue":"RU",
+    "linkLogInHref":"#",
+    "linkLogINValue":"logIN",
+    "isVisibleLogIN":"d-none",
+    "li5":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li6":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li1":{
+    "href":"english_for_children.html",
+    "value":"Для дітей",
+    "isActive":""
+    },
+    "li2":{
+    "href":"english_for_adults.html",
+    "value":"Для дорослих",
+    "isActive":""
+    },
+    "li3":{
+    "href":"english_online.html",
+    "value":"Курси online",
+    "isActive":""
+    },
+    "li4":{
+    "href":"contact-us.html",
+    "value":"Контакти",
+    "isActive":"active"
+    },
+
+    })
+
+    <!-- Верхняя обложка -->
+    @@include('../HTMLparts/top-wrapper-our-contacts.html',{
+    "class":"top-wrapper-ourContacts",
+    "id":"bgParallax",
+    "shadowSlogan":"our contacts",
+    "slogan":"Ми відповімо протягом дня",
+    "requestField1": {
+    "labelValue":"Ваше ім'я*",
+    "placeholder":"name",
+    },
+    "requestField2": {
+    "labelValue":"Ваш телефон*",
+    "placeholder":"089 123 45 67",
+    },
+    "requestField3": {
+    "labelValue":"Питання або коментар",
+    "placeholder":"Хочу на пробний урок",
+    },
+    "button1": {
+    "value":"Відправити",
+    },
+    "button2": {
+    "value":"Ваш запит відправлено",
+    },
+
+    })
+
+
+    <!--our contacts and map-->
+
+    @@include('../HTMLparts/ourContacts-contact-us.html', {
+    "h3":"Наші контакти",
+    "p1":"We will be happy to answer your questions",
+    "h4":"Адреса",
+    "p2":"м. Київ, проспект Оболонський, 30",
+    "2h4":"Телефони",
+    "p3":"+38 (067)775-34-23",
+    "p4":"+38 (095)762-38-23",
+    "p5":"+38 (073)060-69-23",
+    "h4_2":"Пошта",
+    "p6":"mail@top-english.com.ua",
+    "h4_3":"Час работи",
+    "p7":"пн - пт з 10:00 до 20:00",
+    "h4_4":"Ми в соцмережах",
+    "facebookSrc":"https://www.facebook.com/TopEnglishKyiv",
+    "facebookImageSrc":"img/facebook-icon.png",
+    "instagramSrc":"https://www.instagram.com/top_english_obolon/",
+    "instagramImageSrc":"img/insgram-icon.png",
+
+
+    })
+
+
+
+
+    <!--  footer  -->
+
+    @@include('../HTMLparts/footer.html',{
+    "col1":{
+    "h5":"Наші послуги",
+    "h6":"Курси:",
+    "li1Value":"Англійська для дорослих",
+    "li1href":"english_for_adults.html",
+    "li2Value":"Англійська для дітей",
+    "li2href":"english_for_children.html",
+    "li3Value":"Заняття online",
+    "li3href":"english_online.html",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+    "col2":{
+    "h5":"Наші контакти",
+    "h6":"Адреса:",
+    "li_1Value":"проспект Оболонський, 30",
+    "h6_2":"Телефони:",
+    "li_2_1Value":"+38 (067)775-34-23",
+    "li_2_2Value":"+38 (095)762-38-23",
+    "li_2_3Value":"+38 (073)060-69-23",
+    "h6_3":"Пошта:",
+    "li_3_1Value":"mail@top-english.com.ua",
+    "li_3_2Value":"",
+    },
+    "col3":{
+    "h5":"Ми в соцмережах:",
+    "facebookSrc":"https://www.facebook.com/TopEnglishKyiv",
+    "facebookImageSrc":"img/facebook-icon.png",
+    "instagramSrc":"https://www.instagram.com/top_english_obolon/",
+    "instagramImageSrc":"img/insgram-icon.png",
+    },
+    "col4":{
+    "h5":"Інформація",
+    "h6":"Наша школа:",
+    "li1Value":"Викладачі",
+    "li1href":"/#ourTeachers",
+    "li2Value":"",
+    "li2href":"",
+    "li3Value":"",
+    "li3href":"",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"Навчальні матеріали:",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+
+    })
+
+
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myParalaxBg.js"></script>
+<script src="js/formValidator.js"></script>
+<script> let p1 = new b_backgroundParallax('#bgParallax');</script>
+<script> let v1 = new formValid('#isValid');</script>
+</body>
+</html>

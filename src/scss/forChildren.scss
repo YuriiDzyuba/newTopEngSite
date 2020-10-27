@@ -1,0 +1,1029 @@
+$primary: #1B4E83;
+$secondary: #272725;
+$success: #4C9153;
+$info: #2C0006;
+$warning: #FAB33F !default;
+$danger: #FF5D7D;
+$light: $gray-100 !default;
+$dark: #000000;
+
+
+/*top*/
+
+.top-wrapper-children {
+  padding-top: 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #F4F4F4;
+
+
+  .slogan {
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  .shadow-slogan {
+    position: absolute;
+    font-size: 22rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 22rem;
+    color: white;
+
+  }
+
+  .b_backgroundParallax {
+    height: 115%;
+    width: 140%;
+    overflow: hidden;
+    float: right;
+    margin-right: -15px;
+    margin-top: -1.5rem;
+  }
+
+  .layer-2 {
+    margin-right: 15px;
+    width: 70rem;
+    height: 45rem;
+    background: url('../img/children5.png') center no-repeat;
+    background-size: contain;
+  }
+
+
+  .top-wrapper-left {
+    padding-left: 2rem;
+    margin: auto;
+
+    ul {
+      color: $primary;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 3rem;
+      padding: 1.5rem 0.5rem;
+      list-style: none;
+      font-style: italic;
+    }
+
+    i {
+      margin: 0 1rem 0 0;
+    }
+
+
+  }
+
+  .top-wrapper-right {
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+    background: $danger;
+    height: 40rem;
+
+  }
+}
+
+/*top forAdults*/
+
+.top-wrapper-adults {
+  padding-top: 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #F4F4F4;
+
+
+  .slogan {
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  .shadow-slogan {
+    position: absolute;
+    font-size: 22rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 22rem;
+    color: white;
+
+  }
+
+  .b_backgroundParallax {
+    height: 115%;
+    width: 140%;
+    overflow: hidden;
+    float: right;
+    margin-right: -15px;
+    margin-top: -1.5rem;
+  }
+
+  .layer-2 {
+    margin-right: 15px;
+    width: 70rem;
+    height: 45rem;
+    background: url('../img/girl45.png') center no-repeat;
+    background-size: contain;
+  }
+
+
+  .top-wrapper-left {
+    padding-left: 2rem;
+    margin: auto;
+
+    ul {
+      color: $primary;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 3rem;
+      padding: 1.5rem 0.5rem;
+      list-style: none;
+      font-style: italic;
+    }
+
+    i {
+      margin: 0 1rem 0 0;
+    }
+
+
+  }
+
+  .top-wrapper-right {
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+    background: $danger;
+    height: 40rem;
+
+  }
+}
+
+/*top online*/
+
+.top-wrapper-online {
+  padding-top: 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #F4F4F4;
+
+
+  .slogan {
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  .shadow-slogan {
+    position: absolute;
+    font-size: 22rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 22rem;
+    color: white;
+
+  }
+
+  .b_backgroundParallax {
+    height: 115%;
+    width: 140%;
+    overflow: hidden;
+    float: right;
+    margin-right: -15px;
+    margin-top: -1.5rem;
+  }
+
+  .layer-2 {
+    margin-right: 15px;
+    width: 70rem;
+    height: 45rem;
+    background: url('../img/online.png') center no-repeat;
+    background-size: contain;
+  }
+
+
+  .top-wrapper-left {
+    padding-left: 2rem;
+    margin: auto;
+
+    ul {
+      color: $primary;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 3rem;
+      padding: 1.5rem 0.5rem;
+      list-style: none;
+      font-style: italic;
+    }
+
+    i {
+      margin: 0 1rem 0 0;
+    }
+
+
+  }
+
+  .top-wrapper-right {
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+    background: $danger;
+    height: 40rem;
+
+  }
+}
+
+/*top ourContacts*/
+
+.top-wrapper-ourContacts {
+  padding-top: 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #F4F4F4;
+
+
+  .slogan {
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 1rem;
+
+  }
+
+  .shadow-slogan {
+    position: absolute;
+    font-size: 22rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 22rem;
+    color: white;
+
+  }
+
+  .b_backgroundParallax {
+    height: 115%;
+    width: 140%;
+    overflow: hidden;
+    float: right;
+    margin-right: -15px;
+    margin-top: -1.5rem;
+  }
+
+  .layer-2 {
+    margin-right: 15px;
+    width: 70rem;
+    height: 45rem;
+    background: url('../img/callMeBack.png') center no-repeat;
+    background-size: contain;
+  }
+
+
+  .top-wrapper-left {
+    padding-left: 2rem;
+    margin: auto;
+
+    .ourContacts-left {
+
+      h3 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      h5 {
+        margin: -7rem 0 0 1rem;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .requestLabel {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+      }
+
+      .requestField {
+        margin: 2rem 1rem;
+        font-style: italic;
+      }
+
+
+      input, textarea {
+        width: 90%;
+        border-radius: 0;
+        padding-right: 2rem;
+        font-style: italic;
+        border: none;
+        box-shadow: none;
+        outline: none;
+        outline-offset: 0;
+        border-bottom: 2px solid black;
+        background: transparent;
+      }
+
+      input:active, input:hover, input:focus,
+      textarea:active, textarea:hover, textarea:focus {
+        border-bottom: 2px solid black;
+        box-shadow: none !important;
+        outline: none !important;
+        outline-offset: 0;
+
+      }
+
+      input:active, input:focus,
+      textarea:active, textarea:focus {
+        transition-property: all;
+        transition-duration: 0.3s;
+        border-bottom: 2px solid lightgrey;
+      }
+
+      button {
+        margin: 1rem 1rem;
+      }
+
+    }
+
+    ul {
+      color: $primary;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 3rem;
+      padding: 1.5rem 0.5rem;
+      list-style: none;
+      font-style: italic;
+    }
+
+    i {
+      margin: 0 1rem 0 0;
+    }
+
+
+  }
+
+  .top-wrapper-right {
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+    background: $danger;
+    height: 40rem;
+
+  }
+}
+
+
+//ступеньки
+
+.join-Us-Steps {
+  color: white;
+  background: $primary;
+  overflow: hidden;
+
+  .column1, .column2, .column3 {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .column2 {
+    box-shadow: 0 0 3.5rem rgba(7, 58, 111, 0.89);
+  }
+
+  .shadow-text {
+    z-index: 1;
+    text-shadow: 1rem 2rem 2rem #12457A, 0 0 2rem #003859; /* Параметры тени */
+    color: #24578C;
+    line-height: 32rem;
+    position: absolute;
+    transform: translateX(20%);
+    font-size: 29rem;
+    font-weight: bold;
+
+  }
+
+  .block-1 {
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    position: relative;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+
+
+    .step-Description {
+      margin-top: 7rem;
+
+
+      h4 {
+        text-align: left;
+        line-height: 3.5rem;
+        margin: 1rem 0;
+        font-size: 2.6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+    }
+
+  }
+
+}
+
+//описание уроков
+
+.lessonGrey {
+  background: #F4F4F4;
+}
+
+.lessonWhite {
+  background: white;
+}
+
+.lessons {
+  color: black;
+  padding: 5rem 0;
+
+  .lessonsImg {
+    margin: auto;
+
+  }
+
+  .lessonsImgParallax {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+
+    .pic1 {
+      position: absolute;
+      z-index: 33;
+      transform: translateY(-50%);
+      top: 50%;
+    }
+
+    .pic2 {
+      position: absolute;
+      z-index: 30;
+      transform: translateY(-50%);
+      top: 50%;
+    }
+
+    .pic3 {
+      position: absolute;
+      z-index: 28;
+      transform: translateY(-50%);
+      top: 50%;
+    }
+  }
+
+  img {
+  }
+
+  .lessonDescription {
+
+    h6 {
+      margin: 1.2rem 0;
+      font-size: 1.3rem;
+      color: $secondary;
+      font-style: italic;
+    }
+
+    i {
+      font-size: 1.9rem;
+      margin: 0 0.9rem 0 0;
+      float: left;
+      color: $success;
+    }
+
+    h3 {
+      color: $secondary;
+      line-height: 3.5rem;
+      margin: 0 0 2rem 0;
+      font-size: 2.6rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    h5 {
+      font-size: 1.3rem;
+      font-weight: 900;
+      margin: 1rem 0 1.5rem 0;
+      color: $info;
+    }
+
+    .lessonText {
+      margin-top: 2rem;
+
+      h4 {
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin: 0.5rem 0;
+        color: black;
+      }
+    }
+
+
+    p {
+      font-size: 1.1rem;
+      margin: 0.3rem 0;
+    }
+
+    .lessonDescriptionPrice {
+      margin-top: 1rem;
+      color: $success;
+      line-height: 3.5rem;
+
+      h5 {
+        margin: 1.5rem 0 0.3rem 0;
+      }
+
+      p {
+        font-size: 2.6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      sup {
+        font-size: 1.6rem;
+        font-style: italic;
+      }
+
+    }
+
+    .lessonDescriptionButtons {
+
+
+      i {
+        color: white;
+      }
+
+      button {
+        margin: 1.5rem 1.2rem 0 0;
+      }
+
+    }
+
+  }
+
+
+}
+
+.lessonGrey, .lessonWhite {
+  .lessonDescription {
+    padding: 0 1rem 0 2rem;
+  }
+}
+
+
+//Соц сети
+
+.weInSocialNetworks {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5rem 1rem;
+
+  h4 {
+    text-align: left;
+    line-height: 3.5rem;
+    margin-bottom: 3rem;
+    font-size: 2.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 1rem 0;
+  }
+
+  p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 1rem 0;
+  }
+
+
+  input {
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+  }
+
+  button {
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+  }
+
+  #emailFormButtonOk {
+    padding: 1rem 5rem;
+  }
+
+  a {
+    float: left;
+    margin-right: 1rem;
+
+    img {
+      width: 4rem;
+      height: 4rem;
+    }
+
+  }
+
+  a:hover {
+    border-radius: 1rem;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+    transition-property: all;
+    transition-duration: 0.2s;
+  }
+
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+
+  .lessons {
+
+    .lessonDescription {
+
+      .lessonDescriptionButtons button {
+        margin: 0.5rem 0.8rem 0 0;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+
+  .top-wrapper-children {
+
+    .slogan {
+      text-align: left;
+      margin: 3rem 0 2rem 0;
+      font-size: 3rem;
+      line-height: normal;
+    }
+
+    .layer-2 {
+      width: 50rem;
+      height: 45rem;
+    }
+  }
+
+
+  .top-wrapper-adults {
+
+    .slogan {
+      text-align: left;
+      margin: 3rem 0 2rem 0;
+      font-size: 3rem;
+      line-height: normal;
+    }
+
+    .layer-2 {
+      width: 50rem;
+      height: 45rem;
+    }
+  }
+
+  .top-wrapper-online {
+
+    .slogan {
+      text-align: left;
+      margin: 3rem 0 2rem 0;
+      font-size: 3rem;
+      line-height: normal;
+    }
+
+    .layer-2 {
+      width: 50rem;
+      height: 45rem;
+    }
+  }
+
+  .top-wrapper-ourContacts {
+
+    .slogan {
+      text-align: left;
+      margin: 3rem 0 1rem 1rem;
+      font-size: 2.5rem;
+      line-height: normal;
+    }
+
+    .layer-2 {
+      width: 40rem;
+      height: 45rem;
+    }
+  }
+
+  .join-Us-Steps .block-1 {
+    padding: 1rem 1rem;
+    margin: 0 auto;
+
+    .step-Description {
+      margin-top: 2rem;
+
+      h4 {
+        text-align: left;
+        line-height: normal;
+        margin: 1rem 0;
+        font-size: 1.6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+
+      }
+    }
+  }
+
+
+  .weInSocialNetworks h4 {
+    line-height: normal;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+
+
+  }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+
+  .top-wrapper-children, .top-wrapper-adults, .top-wrapper-online {
+    padding-top: 5rem;
+
+    .shadow-slogan {
+      font-size: 14rem;
+      line-height: normal;
+    }
+
+    .layer-2 {
+
+    }
+
+    .top-wrapper-left {
+      padding-left: 1rem;
+      padding-right: 0;
+      margin-top: 0;
+      margin-bottom: 1rem;
+
+      .slogan {
+        text-align: left;
+        font-size: 1.8rem;
+        line-height: normal;
+        margin-bottom: 0;
+      }
+
+      button {
+        margin: 0 -3rem 2rem 0;
+        padding: 0.8rem;
+        font-size: 1.1rem;
+
+        i {
+          display: none;
+        }
+      }
+
+
+      ul {
+        width: 120%;
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 3rem;
+        padding: 1.5rem 0 0 0;
+        list-style: none;
+        font-style: italic;
+
+        i {
+          margin: 0 0.1rem 0 0;
+        }
+
+      }
+
+    }
+
+    .top-wrapper-right {
+      border-top-left-radius: 12rem;
+      border-bottom-left-radius: 12rem;
+      margin-top: 2.5rem;
+      margin-bottom: 3.5rem;
+      height: 24rem;
+
+      .layer-2 {
+        margin-top: 1rem;
+        width: 25rem;
+        height: 25rem;
+        margin-left: -1rem;
+      }
+    }
+  }
+
+  .top-wrapper-children {
+    .top-wrapper-right {
+      .layer-2 {
+        margin-left: 1.6rem;
+      }
+    }
+  }
+
+
+  .top-wrapper-ourContacts {
+    padding-top: 5rem;
+
+    .shadow-slogan {
+      font-size: 14rem;
+      line-height: normal;
+    }
+
+    .top-wrapper-left {
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 0;
+
+      .ourContacts-left {
+
+        .requestField {
+          margin: 1rem 0.2rem 1rem 1rem;
+        }
+
+        input {
+          width: 100%;
+          font-size: 1rem;
+        }
+
+        textarea {
+          font-size: 1rem;
+        }
+
+        button {
+          margin: 0 -3rem 2rem 1rem;
+          padding: 0.8rem;
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    .slogan {
+      width: 130%;
+      text-align: left;
+      font-size: 1.8rem;
+      line-height: normal;
+      margin-bottom: 0;
+    }
+
+    .top-wrapper-right {
+      border-top-left-radius: 13rem;
+      border-bottom-left-radius: 13rem;
+      margin-top: 3.5rem;
+      margin-bottom: 5.5rem;
+      height: 26rem;
+
+      .layer-2 {
+        margin-top: 2rem;
+
+        width: 19rem;
+        height: 25rem;
+      }
+    }
+  }
+
+
+  .join-Us-Steps {
+
+    .shadow-text {
+      line-height: normal;
+      transform: translateX(20%);
+      font-size: 19rem;
+    }
+
+    .block-1, .block-1, .block-1 {
+      padding: 1rem 1rem;
+      margin: 0 auto;
+    }
+  }
+
+  .lessons {
+
+    padding: 1rem 0;
+
+    .lessonDescription {
+      padding: 0 1rem;
+
+      i {
+        font-size: 1.9rem;
+        margin: 0.6rem 0.9rem 0 0;
+        float: left;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        line-height: normal;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .lessonDescriptionPrice {
+
+        h5 {
+          margin: 0.5rem 0 0 0;
+        }
+
+        p {
+          font-size: 1.9rem;
+
+          sup {
+            font-size: 1.1rem;
+          }
+
+        }
+
+      }
+
+      .lessonDescriptionButtons {
+        button {
+          i {
+            display: none;
+          }
+
+          margin: 0.5rem 0.8rem 1rem 0;
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    .lessonsImgParallax {
+      height: 25rem;
+      width: 70%;
+      margin: 1rem auto;
+
+    }
+  }
+
+
+  .weInSocialNetworks {
+    padding: 2rem 0;
+
+    a {
+      img {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+    }
+
+  }
+
+
+  .weInSocialNetworks {
+    padding: 2rem 0;
+
+    h4 {
+      text-align: left;
+      line-height: normal;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+
+    h5 {
+      font-size: 1.1rem;
+      margin: 0.8rem 0;
+    }
+
+    p {
+      font-size: 0.9rem;
+      margin: 0.2rem 0;
+    }
+
+
+    a {
+      img {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+    }
+
+  }
+
+
+}

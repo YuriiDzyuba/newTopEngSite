@@ -1,0 +1,385 @@
+@@include('../../HTMLparts/header.html',{
+"lang":"ru",
+"description":"Курсы английского для взрослых, подготовка к IELTS, индивидуальные занятия по английскому, груповые занятия по английскому языку для взрослых. Английский язык на Оболони. Курсы английского в Киеве. Уроки английского языка",
+"title":"Курсы английского для взрослых. Подготовка к IELTS по английскому",
+"keywords":"Курсы английского для взрослых, Подготовка к IELTS, уроки английского для взрослых, подготовка к IELTS по английскому, курсы для взрослых, уроки, курсы, репетитор, учитель английского, английский в группах",
+"ogTitle":"Английский для взрослых",
+"ogUrl":"english_for_adults.html",
+"ogImage":"../img/logoIcon.png",
+"ogSiteName":"Top English School – школа английского языка с активной жизненной позицией. Наше кредо: \“Let's reach the top together\”",
+"iconScr":"../img/logoIcon.png",
+"styleHref":"../styles/style.min.css",
+})
+<body>
+<div class="container-fluid">
+    <!--    .............navBar..................     -->
+
+    @@include('../../HTMLparts/navBar.html', {
+    "navbarBrandHref":"/ru/",
+    "imgSrc":"../img/logo2.png",
+    "img2SrcMini":"../img/logo.png",
+    "linkLanguageHref":"../english_for_adults.html",
+    "linkLanguageHrefValue":"UKR",
+    "linkLogInHref":"#",
+    "linkLogINValue":"logIN",
+    "isVisibleLogIN":"d-none",
+    "li5":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li6":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li1":{
+    "href":"english_for_children.html",
+    "value":"Для детей",
+    "isActive":""
+    },
+    "li2":{
+    "href":"english_for_adults.html",
+    "value":"Для взрослых",
+    "isActive":"active"
+    },
+    "li3":{
+    "href":"english_online.html",
+    "value":"Курсы online",
+    "isActive":""
+    },
+    "li4":{
+    "href":"contact-us.html",
+    "value":"Контакты",
+    "isActive":""
+    },
+
+    })
+
+    <!-- Верхняя обложка -->
+    @@include('../../HTMLparts/top-wrapper.html',{
+    "class":"top-wrapper-adults",
+    "id":"bgParallax",
+    "shadowSlogan":"For adults",
+    "slogan":"Английский для взрослых",
+    "topModalSlogan":"Присоединяйтесь к нам",
+    "li1": {
+    "class":"fas fa-users",
+    "href":"groupLessons",
+    "value":"В группах",
+    },
+    "li2": {
+    "class":"fas fa-user-friends",
+    "href":"miniGroupLessons",
+    "value":"В мини-группах",
+    },
+    "li3": {
+    "class":"fas fa-user-check",
+    "href":"individualLessons",
+    "value":"Индивидуально",
+    },
+    "li4": {
+    "class":"",
+    "href":"prepairTozno",
+    "value":"",
+    },
+    "li5": {
+    "class":"",
+    "href":"",
+    "value":"",
+    },
+    "button": {
+    "target":"myModal",
+    "value":"Бесплатный урок",
+    }
+    })
+
+    <!-- The Modal -->
+    @@include('../../HTMLparts/modal.html',{
+    "h4":"Присоединяйтесь к нам",
+    "p":"Hа первом бесплатном занятии Вы пройдете тестирование, Вам расскажут и покажут, как работает методика школы, познакомят с программой и ответят на все интересующие вопросы. Приходите!",
+    "label1":"Ваше имя",
+    "placeholder1":"name",
+    "label2":"Ваш телефон*",
+    "placeholder2":"099 123 45 67",
+    "label3":"Коментарий",
+    "placeholder3":"Хочу на пробный урок",
+    "button":"отправить",
+    "buttonSuccess":"Ваш запрос отправлен",
+    })
+
+    <!--    Ступеньки-->
+    @@include('../../HTMLparts/stairs.html',{
+    "column1":{
+    "h4":"Знакомство",
+    "p1":"Оставте заявку на сайте, напишите на почту, напишите в viber, watsApp или позвоните нам по телефону.",
+    "p2":"Согласуем детали и удобное время. Ждем Вас в нашей школе."
+    },
+    "column2":{
+    "h4":"Тестирование",
+    "p1":"На пробном уроке мы познакомимся проведем короткое тестирование, ответим на все интересующие вопросы.",
+    "p2":"Подберем подходящий курс, согласуем график и формат обучения."
+    },
+    "column3":{
+    "h4":"ЗАНЯТИЯ",
+    "p1":"Практикуйтесь в устной речи, общайтесь, учите граматические конструкции  и получайте удовольствие, мы срадостью Вам в этом поможем.",
+    "p2":"Занимайтесь с нами and Let’s reach the top together! "
+    },
+
+    })
+    <!--    lessons-->
+
+
+    <!--  ++++++++++++  В группах     +++++++++++++++++++++++++     -->
+
+    @@include('../../HTMLparts/lessonGrey.html', {
+    "id": "groupLessons",
+    "h3": "Груповые заятия",
+    "h5": "",
+    "forWhy": "Для взрослых от 17 лет",
+    "periodicity":"2 раза в неделю по 80мин.",
+    "duration": "Длительность курса 5-6 месяцев",
+    "begin": "Начало занятий: пн - пт 15:00 - 20:00",
+    "h4text":"В группах 3-6 человек",
+    "p1":"Если Вы желаете изучать иностранный язык в веселой компании и под руководством опытного преподавателя – разговорный курс для взрослых именно для Вас.",
+    "p2":"Программа этого курса основана на комплексном подходе к изучению языка, на занятиях мы разбираем грамматику, читаем и слушаем, но самое главное – мы много разговариваем! Прокомментируйте картинку, аудио, видео, текст, составьте диалог по примеру, выскажите свою точку зрения и многое другое. В группе из 6 человек (максимум) Вам не удастся остаться не замеченным и промолчать, ведь главная цель преподавателя – научить Вас общаться.",
+    "p3":"",
+    "p4":"",
+    "h5Cost":"Стоимость:",
+    "pCost":"1440",
+    "pCostSub":"грн/месяц",
+    "h5CostOr":"",
+    "pCostOr":"",
+    "pCostSubOr":"",
+    "buttons": {
+    "greenValue":"Заказать консультацию",
+    "greenTarget":"#myModal",
+    "redValue":"Бесплатный урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"../img/groupLessonsForAdults.png",
+    "img2":"../img/cl21.svg",
+    "img3":"../img/cl22.svg",
+    }
+    })
+
+    <!--  ++++++++++++  В минигруппах     +++++++++++++++++++++++++     -->
+
+    @@include('../../HTMLparts/lessonWhite.html', {
+    "id": "miniGroupLessons",
+    "h3": "В МИНИ-ГРУППАХ",
+    "h5": "",
+    "forWhy": "Для взрослых от 17 лет",
+    "periodicity":"2-3 раза в неделю по 60 мин.",
+    "duration": "Длительность курса: индивидуально",
+    "begin": "Начало занятий: пн - пт 15:00 - 20:00",
+    "h4text":"В группах 2-3 человека",
+    "p1":"Если Вы желаете превратить изучение иностранного языка в увлекательный досуг и проводить его в компании хорошо знакомых людей (друзей, родственников или коллег), то занятия в мини-группах идеально подойдет Вам.",
+    "p2":"Такие уроки не менее эффективны, чем индивидуальные, ведь внимание преподавателя направлено только на несколько человек и позволяет также вносить изменения в программу в соответствии с успеваемостью и темпом работы.",
+    "p3":"В группе друзей или родственников обычно возникает здоровая конкуренция, все друг друга поддерживают и стимулируют делать все больше и больше. Процесс обучения в хорошей компании с опытным преподавателем принесет отличный результат и даст возможность с легкостью разговориться.",
+    "p4":"",
+    "h5Cost":"Стоимость:",
+    "pCost":"1580",
+    "pCostSub":"грн/8 занятий",
+    "h5CostOr":"или",
+    "pCostOr":"2420",
+    "pCostSubOr":"грн/12 занятий",
+    "buttons": {
+    "greenValue":"Заказать консультацию",
+    "greenTarget":"#myModal",
+    "redValue":"Бесплатный урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"../img/englishForAdultsMiniGroup.png",
+    "img2":"../img/cl31.svg",
+    "img3":"../img/cl32.svg",
+    }
+
+    })
+
+
+</div> <!--container-fluid-->
+
+<!--     ++++++++++++++++++   we are in social Networks  ++++++++++++++++++++++++++++++++-->
+@@include('../../HTMLparts/weInSocNetworks.html',{
+"parallaxImageSrc":"../img/business-meeting.jpg",
+"h4":"Присоединяйтесь к нам",
+"p1":"Будьте вкурсе последних новостей. Следите за новинками и расписанием.",
+"p2":"Участвуйте в конкурсах. Общайтесь с преподавателями и студентами. Задавайте вопросы",
+"h5":"Подпишитесь на нашу email рассылку",
+"button": {
+"target":"Подписка оформлена",
+"value":"Подписаться"
+},
+"socseth5":"Мы в социальных сетях",
+
+})
+
+<div class="container-fluid">
+    <!--    lessons-->
+
+    <!-- ++++++++++++++++++++++++++ Индивидуально   ++++++++++++++++++++++++++++++ -->
+
+    @@include('../../HTMLparts/lessonWhite.html', {
+    "id": "individualLessons",
+    "h3": "Индивидуальные занятия",
+    "h5": "",
+    "forWhy": "Для взрослых от 17 лет",
+    "periodicity":"2-3 раза в неделю",
+    "duration": "длительность курса: индивидуально",
+    "begin": "Начало занятий: по договоренности",
+    "h4text":"Преимущества",
+    "p1":"- гибкий график (занятия могут проходить утром, днем или вечером);",
+    "p2":"- индивидуальный подход к обучению (все задания и материалы подбираются в соответствии с потребностями одного студента);",
+    "p3":"- все внимание преподавателя сосредоточено на одном человеке;",
+    "p4":"- темп проведения занятий зависит только от Вашей успеваемости;",
+    "h5Cost":"Стоимость:",
+    "pCost":"320",
+    "pCostSub":"грн/одно занятие",
+    "h5CostOr":"или",
+    "pCostOr":"3000",
+    "pCostSubOr":"грн/10 занятий",
+    "buttons": {
+    "greenValue":"Заказать консультацию",
+    "greenTarget":"#myModal",
+    "redValue":"Бесплатный урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"../img/ind.png",
+    "img2":"../img/cl1.svg",
+    "img3":"../img/cl2.svg",
+    }
+
+    })
+
+
+
+    <!--  footer  -->
+
+    @@include('../../HTMLparts/footer.html',{
+    "col1":{
+    "h5":"Наши услуги",
+    "h6":"Курсы:",
+    "li1Value":"Английский для взрослых",
+    "li1href":"english_for_adults.html",
+    "li2Value":"Английский для детей",
+    "li2href":"english_for_children.html",
+    "li3Value":"Занятия online",
+    "li3href":"english_online.html",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+    "col2":{
+    "h5":"Наши контакты",
+    "h6":"Адрес:",
+    "li_1Value":"проспект Оболонский, 30",
+    "h6_2":"Телефоны:",
+    "li_2_1Value":"+38 (067)775-34-23",
+    "li_2_2Value":"+38 (095)762-38-23",
+    "li_2_3Value":"+38 (073)060-69-23",
+    "h6_3":"Почта:",
+    "li_3_1Value":"mail@top-english.com.ua",
+    "li_3_2Value":"",
+    },
+    "col3":{
+    "h5":"Мы в соцсетях:",
+    "facebookSrc":"https://www.facebook.com/TopEnglishKyiv",
+    "facebookImageSrc":"../img/facebook-icon.png",
+    "instagramSrc":"https://www.instagram.com/top_english_obolon/",
+    "instagramImageSrc":"../img/insgram-icon.png",
+    },
+    "col4":{
+    "h5":"Информация",
+    "h6":"Наша школа:",
+    "li1Value":"преподаватели",
+    "li1href":"/ru/#ourTeachers",
+    "li2Value":"",
+    "li2href":"",
+    "li3Value":"",
+    "li3href":"",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"Учебные материалы:",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+
+    })
+
+</div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/myParalaxBg.js"></script>
+<script src="../js/parallax.min.js"></script>
+<script src="../js/modalFormValidator.js"></script>
+<script src="../js/emailFormValidator.js"></script>
+<script src="../js/lessonParallax.js"></script>
+<script> let p1 = new b_backgroundParallax('#bgParallax');</script>
+<script> let lp1 = new lessonParallax('#imgParallaxgroupLessons');</script>
+<script> let lp2 = new lessonParallax('#imgParallaxminiGroupLessons');</script>
+<script> let lp3 = new lessonParallax('#imgParallaxindividualLessons');</script>
+<script> let mv1 = new modal('#myModalForm');</script>
+<script> let e1 = new emailForm('#emailForm');</script>
+<script>
+    $('#myModal').on('show.bs.modal', function (event) {
+        let button = $(event.relatedTarget)
+        let lessonButtonAction = button.hasClass('lessonButtonAction')
+        let infoButtonAction = button.hasClass('infoButtonAction')
+        let recipient = button.data('whatever')
+        let type = button.text()
+        let modal = $(this)
+        if (lessonButtonAction) {
+            let path = `for adults ${type} ${recipient}`
+            let pathString = path.split(' ').join('')
+            modal.find('.modal-title').text(type+" - "+recipient)
+            modal.find('.modal-body p').addClass("d-none")
+            modal.find('.modal-body form').attr("name", pathString)
+        } else if (infoButtonAction) {
+            modal.find('.modal-title').text(""+recipient)
+            modal.find('.modal-body p').removeClass("d-none")
+            modal.find('.modal-body form').attr("name", recipient)
+        }
+    })
+</script>
+<script>
+    jQuery(document).ready(function () {
+        jQuery(window).bind("load", function () {
+            //Пример исключения ссылки:
+            //jQuery('a[href*="#"]:not([href="#"],[href="#spu-209"],[href="#spu-211"],[href="#spu-212"],[href="#spu-213"],[href="#spu-214"],[href="#spu-215"],[href="#spu-217"])').click(function() {
+            jQuery('a:not(.spu-clickable)[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+                    location.hostname == this.hostname) {
+                    var target = jQuery(this.hash);
+                    target = target.length ? target : jQuery('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        jQuery("html, body").animate({
+                            // $('html, body').animate({
+                            scrollTop: target.offset().top - 100
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

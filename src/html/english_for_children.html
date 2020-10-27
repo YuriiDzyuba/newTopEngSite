@@ -1,0 +1,424 @@
+@@include('../HTMLparts/header.html',{
+"lang":"uk",
+"description":"Курси англійської для дітей, підготовка до ЗНО, індивідуальні заняття з англійської, групові заняття з англійської мови для дітей. Англійська мова для дітей на Оболоні. Уроки англійської мови для дітей",
+"title":"Курси англійської для дітей. Підготовка до ЗНО з англійської",
+"keywords":"Курси англійської для школярів, ЗНО з англійської, уроки англійської для дітей, підготовка до ЗНО з англійської, курси для школярів, уроки, курси, репетитор, вчитель англійської, англійська в групах",
+"ogTitle":"Англійська для дітей",
+"ogUrl":"english_for_children.html",
+"ogImage":"img/logoIcon.png",
+"ogSiteName":"Курси англійської для дітей. Підготовка до ЗНО з англійської",
+"iconScr":"img/logoIcon.png",
+"styleHref":"styles/style.min.css",
+})
+<body>
+<div class="container-fluid">
+
+    <!--    .............navBar..................     -->
+
+    @@include('../HTMLparts/navBar.html', {
+    "navbarBrandHref":"/",
+    "imgSrc":"img/logo2.png",
+    "img2SrcMini":"img/logo.png",
+    "linkLanguageHref":"ru/english_for_children.html",
+    "linkLanguageHrefValue":"RU",
+    "linkLogInHref":"#",
+    "linkLogINValue":"logIN",
+    "isVisibleLogIN":"d-none",
+    "li5":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li6":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li1":{
+    "href":"english_for_children.html",
+    "value":"Для дітей",
+    "isActive":"active"
+    },
+    "li2":{
+    "href":"english_for_adults.html",
+    "value":"Для дорослих",
+    "isActive":""
+    },
+    "li3":{
+    "href":"english_online.html",
+    "value":"Курси online",
+    "isActive":""
+    },
+    "li4":{
+    "href":"contact-us.html",
+    "value":"Контакти",
+    "isActive":""
+    },
+
+    })
+
+    <!-- ..................Верхняя обложка............................ -->
+
+    @@include('../HTMLparts/top-wrapper.html',{
+    "class":"top-wrapper-children",
+    "id":"bgParallax",
+    "shadowSlogan":"For children",
+    "slogan":"Англійська для дітей",
+    "topModalSlogan":"Долучайтесь до нас",
+    "li1": {
+    "class":"fas fa-users",
+    "href":"groupLessons",
+    "value":"В групах",
+    },
+    "li2": {
+    "class":"fas fa-user-friends",
+    "href":"miniGroupLessons",
+    "value":"В міні-групах",
+    },
+    "li3": {
+    "class":"fas fa-user-check",
+    "href":"individualLessons",
+    "value":"Індивідуально",
+    },
+    "li4": {
+    "class":"fas fa-chalkboard-teacher",
+    "href":"prepairTozno",
+    "value":"Підготовка до ЗНО",
+    },
+    "li5": {
+    "class":"",
+    "href":"",
+    "value":"",
+    },
+    "button": {
+    "target":"myModal",
+    "value":"Пробний урок",
+    }
+    })
+
+    <!-- The Modal -->
+    @@include('../HTMLparts/modal.html',{
+    "h4":"Долучайтесь до нас",
+    "p":"Hа першому безкоштовному занятті Ви пройдете тестування, Вам розкажуть і покажуть, як працює методика школи, познайомлять з програмою і дадуть відповідь на всі запитання. Приходьте!",
+    "label1":"Ваше ім\'я",
+    "placeholder1":"name",
+    "label2":"Ваш телефон*",
+    "placeholder2":"099 123 45 67",
+    "label3":"Коментар",
+    "placeholder3":"Хочу на пробний урок",
+    "button":"Відправити",
+    "buttonSuccess":"Ваше замовлення оформлене",
+    })
+
+    <!--    Ступеньки-->
+    @@include('../HTMLparts/stairs.html',{
+    "column1":{
+    "h4":"Знайомство",
+    "p1":"Залиште заявку на сайті або на пошті. Напишіть нам в viber, telegram, whatsApp або зателефонуйте.",
+    "p2":"Узгодимо деталі і зручний час. Чекаємо Вас в нашій школі."
+    },
+    "column2":{
+    "h4":"Тестування",
+    "p1":"На пробному уроці ми познайомимося проведемо коротке тестування. Наші спеціалісти дадуть відповіді на всі Ваші запитання.",
+    "p2":"Ми підберемо для Вас відповідний курс і узгодимо графік."
+    },
+    "column3":{
+    "h4":"Заняття",
+    "p1":"Практикуйтеся в усному мовленні, спілкуйтеся, вчіть граматичні конструкції і отримуйте задоволення від занять, а ми Вам у цьому допоможемо.",
+    "p2":"Займайтеся з нами and Let's reach the top together!"
+    },
+
+    })
+    <!--    lessons-->
+
+
+    <!--  ++++++++++++  В группах     +++++++++++++++++++++++++     -->
+
+    @@include('../HTMLparts/lessonGrey.html', {
+    "id": "groupLessons",
+    "h3": "Групові заняття",
+    "h5": "",
+    "forWhy": "Для школярів 6-16 років",
+    "periodicity":"2 рази на тиждень по 60 хв",
+    "duration": "Тривалість курсу: 8 місяців",
+    "begin": "Початок занять пн-пт: 14:00 - 19:00",
+    "h4text":"В групах 3-6 осіб",
+    "p1":"Програма курсу «Англійська в групах для школярів» заснована на матеріалах підручників британських видань, які відповідають віку і рівню знань дитини та є прекрасними помічниками у виконанні головних завдань даного курсу.",
+    "p2":"Основними цілями даного курсу є активне поповнення словникового запасу, читання інформативних текстів, розвиток навичок писемного мовлення, сприйняття на слух носіїв мови, постійна практика усного мовлення.",
+    "p3":"",
+    "p4":"",
+    "h5Cost":"Вартість:",
+    "pCost":"790",
+    "pCostSub":"грн/місяць",
+    "h5CostOr":"",
+    "pCostOr":"",
+    "pCostSubOr":"",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/groupForChildren.png",
+    "img2":"img/cl21.svg",
+    "img3":"img/cl22.svg",
+    }
+
+    })
+
+    <!--  ++++++++++++  В минигруппах     +++++++++++++++++++++++++     -->
+
+    @@include('../HTMLparts/lessonWhite.html', {
+    "id": "miniGroupLessons",
+    "h3": "В МіНі-ГРУПАХ",
+    "h5": "",
+    "forWhy": "Для школярів 6-16 років",
+    "periodicity":"2 рази на тиждень по 60 хв",
+    "duration": "Тривалість курсу: 5-6 місяців",
+    "begin": "Початок занять пн-пт: 14:00 - 19:00",
+    "h4text":"В групах 2-3 особи",
+    "p1":"Курс «Англійська в міні-групах для школярів» розрахований на інтенсивне вивчення мови. Основна програма курсу базується на сучасних підручниках. Але так як і в індивідуальних заняттях, програма міні-груп може змінюватися в залежності від цілей і бажань учнів.",
+    "p2":"Даний курс підійде як для дітей, які хочуть просто покращувати свою англійську, так і для школярів, яким потрібно підготуватися до здачі екзаменів, наприклад ЗНО або ДПА.",
+    "p3":"",
+    "p4":"",
+    "h5Cost":"Вартість:",
+    "pCost":"1580",
+    "pCostSub":"грн/8 занять",
+    "h5CostOr":"",
+    "pCostOr":"",
+    "pCostSubOr":"",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/miniGroupForChildren.png",
+    "img2":"img/cl31.svg",
+    "img3":"img/cl32.svg",
+    }
+
+    })
+
+
+</div> <!--container-fluid-->
+
+<!--     ++++++++++++++++++   we are in social Networks  ++++++++++++++++++++++++++++++++-->
+@@include('../HTMLparts/weInSocNetworks.html',{
+"parallaxImageSrc":"../img/business-meeting.jpg",
+"h4":"Долучайтесь до нас",
+"p1":"Будьте в курсі останніх новин. Слідкуйте за новинками, акціями та розкладом.",
+"p2":"Беріть участь в конкурсах. Спілкуйтеся з викладачами і студентами. Задавайте питання",
+"h5":"Підпишіться на нашу email розсилку",
+"button": {
+"target":"Підписка оформлена",
+"value":"Підписатися"
+},
+"socseth5":"Ми в соціальних мережах:",
+
+})
+
+<div class="container-fluid">
+    <!--    lessons-->
+
+    <!-- ++++++++++++++++++++++++++ Индивидуально   ++++++++++++++++++++++++++++++ -->
+
+    @@include('../HTMLparts/lessonWhite.html', {
+    "id": "individualLessons",
+    "h3": "Індивідуальні заняття",
+    "h5": "",
+    "forWhy": "Для школярів 6-16 років",
+    "periodicity":"2-3 рази на тиждень по 60 хв",
+    "duration": "Тривалість курсу: індивідуально",
+    "begin": "Початок роботи: по домовленості",
+    "h4text":"Переваги індивідуальних занять:",
+    "p1":"- гнучкий графік (заняття можуть проходити вранці, вдень або ввечері);",
+    "p2":"- індивідуальний підхід до навчання (усі завдання і матеріали підбираються відповідно до потреб одного студента);",
+    "p3":"- вся увага викладача зосереджено на одній людині;",
+    "p4":"- темп проведення занять залежить тільки від Вашої успішності.",
+    "h5Cost":"Вартість:",
+    "pCost":"320",
+    "pCostSub":"грн/одне заняття",
+    "h5CostOr":"або",
+    "pCostOr":"3000",
+    "pCostSubOr":"грн/10 занять",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/individualForChildren.png",
+    "img2":"img/cl21.svg",
+    "img3":"img/cl22.svg",
+    }
+
+    })
+
+    <!-- ++++++++++++++++++++++++++Подготовка к ЗНО ++++++++++++++++++++++++++++++ -->
+
+    @@include('../HTMLparts/lessonGrey.html', {
+    "id": "prepairTozno",
+    "h3": "Підготовка до ЗНО",
+    "h5": "",
+    "forWhy": "Для учнів 10-11 класів",
+    "periodicity":"2 раза на тиждень по 60 хв",
+    "duration": "Тривалість курсу: 5-8 місяців",
+    "begin": "Початок занять пн-пт: 15:00 - 20:00",
+    "h4text":"В групах 3-6 осіб.",
+    "p1":"З огляду на всю складність зовнішнього незалежного оцінювання (ЗНО) та важливість отримання хорошого результату для кожного випускника, наша школа пропонує спеціально розроблений курс підготовки до ЗНО.",
+    "p2":"Наш курс Включає в себе підготовку по чотирьох головних частинах тесту, а саме: аудіювання, читання, письмо, використання англійської мови (граматика).",
+    "p3":"На наших заняттях діти не тільки підвищать свій рівень володіння іноземною мовою, а й ознайомляться зі специфікою ЗНО, усіма вимогами до виконання завдань, виконають безліч аналогічних вправ, що надасть їм впевненості та допоможе менше хвилюватися при виконанні самого тесту.",
+    "p4":"",
+    "h5Cost":"Вартість:",
+    "pCost":"1080",
+    "pCostSub":"ГРН/8 занять",
+    "h5CostOr":"",
+    "pCostOr":"",
+    "pCostSubOr":"",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/zno.png",
+    "img2":"img/cl1.svg",
+    "img3":"img/cl2.svg",
+    }
+
+    })
+
+    <!--  footer  -->
+
+    @@include('../HTMLparts/footer.html',{
+    "col1":{
+    "h5":"Наші послуги",
+    "h6":"Курси:",
+    "li1Value":"Англійська для дорослих",
+    "li1href":"english_for_adults.html",
+    "li2Value":"Англійська для дітей",
+    "li2href":"english_for_children.html",
+    "li3Value":"Заняття online",
+    "li3href":"english_online.html",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+    "col2":{
+    "h5":"Наші контакти",
+    "h6":"Адреса:",
+    "li_1Value":"проспект Оболонський, 30",
+    "h6_2":"Телефони:",
+    "li_2_1Value":"+38 (067)775-34-23",
+    "li_2_2Value":"+38 (095)762-38-23",
+    "li_2_3Value":"+38 (073)060-69-23",
+    "h6_3":"Пошта:",
+    "li_3_1Value":"mail@top-english.com.ua",
+    "li_3_2Value":"",
+    },
+    "col3":{
+    "h5":"Ми в соцмережах:",
+    "facebookSrc":"https://www.facebook.com/TopEnglishKyiv",
+    "facebookImageSrc":"img/facebook-icon.png",
+    "instagramSrc":"https://www.instagram.com/top_english_obolon/",
+    "instagramImageSrc":"img/insgram-icon.png",
+    },
+    "col4":{
+    "h5":"Інформація",
+    "h6":"Наша школа:",
+    "li1Value":"Викладачі",
+    "li1href":"/#ourTeachers",
+    "li2Value":"",
+    "li2href":"",
+    "li3Value":"",
+    "li3href":"",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"Навчальні матеріали:",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+
+    })
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myParalaxBg.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/modalFormValidator.js"></script>
+<script src="js/emailFormValidator.js"></script>
+<script src="js/lessonParallax.js"></script>
+<script> let p1 = new b_backgroundParallax('#bgParallax');</script>
+<script> let lp1 = new lessonParallax('#imgParallaxgroupLessons');</script>
+<script> let lp2 = new lessonParallax('#imgParallaxminiGroupLessons');</script>
+<script> let lp3 = new lessonParallax('#imgParallaxindividualLessons');</script>
+<script> let lp4 = new lessonParallax('#imgParallaxprepairTozno');</script>
+<script> let mv1 = new modal('#myModalForm');</script>
+<script> let e1 = new emailForm('#emailForm');</script>
+
+<script>
+    $('#myModal').on('show.bs.modal', function (event) {
+        let button = $(event.relatedTarget)
+        let lessonButtonAction = button.hasClass('lessonButtonAction')
+        let infoButtonAction = button.hasClass('infoButtonAction')
+        let recipient = button.data('whatever')
+        let type = button.text()
+        let modal = $(this)
+        if (lessonButtonAction) {
+            let path = `for children ${type} ${recipient}`
+            let pathString = path.split(' ').join('')
+            modal.find('.modal-title').text(type+" - "+recipient)
+            modal.find('.modal-body p').addClass("d-none")
+            modal.find('.modal-body form').attr("name", pathString)
+        } else if (infoButtonAction) {
+            modal.find('.modal-title').text(""+recipient)
+            modal.find('.modal-body p').removeClass("d-none")
+            modal.find('.modal-body form').attr("name", recipient)
+        }
+    })
+</script>
+<script>
+    jQuery(document).ready(function () {
+        jQuery(window).bind("load", function () {
+            //Пример исключения ссылки:
+            //jQuery('a[href*="#"]:not([href="#"],[href="#spu-209"],[href="#spu-211"],[href="#spu-212"],[href="#spu-213"],[href="#spu-214"],[href="#spu-215"],[href="#spu-217"])').click(function() {
+            jQuery('a:not(.spu-clickable)[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+                    location.hostname == this.hostname) {
+                    var target = jQuery(this.hash);
+                    target = target.length ? target : jQuery('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        jQuery("html, body").animate({
+                            // $('html, body').animate({
+                            scrollTop: target.offset().top - 100
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    });
+
+</script>
+</body>
+</html>

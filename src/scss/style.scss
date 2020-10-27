@@ -1,0 +1,1598 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/owl.carousel/src/scss/owl.carousel";
+@import "node_modules/owl.carousel/src/scss/owl.theme.default";
+@import "src/paralaxBackground1/styles/style";
+@import "slider";
+@import "owl.theme.default";
+@import "forChildren";
+@import "animate.min";
+
+
+.container-fluid {
+  max-width: 1600px;
+}
+
+.parallax-container {
+  margin: auto;
+  max-width: 1600px;
+}
+
+.phoneButtonNavbar{
+  border: none;
+}
+
+.fa-viber {
+  color:#763E99;
+}
+
+.fa-telegram {
+  color: #2FA7DB;
+  margin-left: 0.05rem;
+}
+
+.phoneImgNavbar {
+  font-size: 1.5rem;
+  color: $primary;
+}
+
+.btn-rounded {
+  border-radius: 2rem;
+  padding: 1rem;
+  font-weight: 600;
+  color: white;
+
+}
+
+.btn-rounded:hover {
+  box-shadow: -3px 4px 10px rgba(0, 0, 0, 0.2);
+  transition-property: all;
+  transition-duration: 0.2s;
+
+}
+
+
+.navbar {
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2); /* Параметры тени */
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.fixed-top {
+  right: 1.5rem;
+  left: 1.5rem;
+}
+
+/*Modal*/
+
+
+.modal-content {
+  border-radius: 1.3rem;
+}
+
+.contactUsModal {
+
+  .modal-header {
+    background: #535353;
+    color: white;
+    text-transform: uppercase;
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+  }
+
+  .contactUsModal p {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+
+  .requestField {
+    margin: 1rem 1rem;
+    font-style: italic;
+  }
+
+  .requestLabel {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  input {
+    padding-top: 0;
+    font-style: italic;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    outline-offset: 0;
+    border-bottom: 2px solid black;
+  }
+
+
+  input:active, input:hover, input:focus {
+    border-bottom: 2px solid black;
+    box-shadow: none;
+    outline: none;
+    outline-offset: 0;
+
+  }
+
+  input:active, input:focus {
+    transition-property: all;
+    transition-duration: 0.3s;
+    border-bottom: 2px solid lightgrey;
+  }
+
+
+  .btn-rounded {
+    margin: 2rem 0;
+    font-size: 1rem;
+  }
+
+  .btn-rounded:hover {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #myModalButtonInfo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+}
+
+/*top*/
+
+.top-wrapper-index {
+  padding-top: 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #F4F4F4;
+
+  .navbar-nav li {
+    padding: 0 1rem;
+  }
+
+  .slogan {
+    font-size: 4.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 5rem;
+
+  }
+
+
+  .shadow-slogan {
+    position: absolute;
+    font-size: 22rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 22rem;
+    color: white;
+
+  }
+
+  .b_backgroundParallax {
+    height: 115%;
+    width: 140%;
+    overflow: hidden;
+    float: right;
+    margin-right: -15px;
+    margin-top: -1.5rem;
+  }
+
+
+  .layer-1,.layer-2,.layer-3 {
+    position: absolute;
+    width: 70rem;
+    height: 43rem;
+  }
+
+  .layer-1 {
+    background: url('../img/2.svg') center no-repeat;
+    background-size: contain;
+  }
+  .layer-2 {
+    background: url('../img/3.svg') center no-repeat;
+    background-size: contain;
+  }
+  .layer-3 {
+    background: url('../img/1.svg') center no-repeat;
+    background-size: contain;
+  }
+
+  .xsBackground {
+    img {
+      width: 150%;
+      margin-top: 4rem;
+      margin-left: -2rem;
+    }
+
+  }
+
+
+  .top-wrapper-left {
+    padding-left: 2rem;
+    margin-top: 15rem;
+    height: 250px;
+
+
+  }
+
+  .top-wrapper-right {
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+    background-color: $danger;
+    height: 40rem;
+
+  }
+}
+
+/*why us*/
+
+
+.sloganWhite1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4.5rem;
+  margin-left: 1rem;
+
+}
+
+.whyUs {
+  font-weight: 100;
+  color: white;
+  //background: linear-gradient(180deg, rgba(0, 95, 151, 1) 0%, rgba(0, 123, 184, 1) 100%);
+  background: $primary;
+
+
+  h6 {
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+
+  i {
+    margin: 1rem;
+    font-size: 1.5rem;
+    float: left;
+  }
+
+  p {
+    margin: 1.5rem 1rem 6.5rem 1rem;
+  }
+}
+
+
+//картинки про все
+
+.aboutAllPictures {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(27, 78, 131, 1) 50%);
+
+  .imgLeft {
+    padding-top: 4rem;
+    padding-right: 0;
+  }
+
+  .imgCenter {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .imgRight {
+    padding-left: 0;
+  }
+
+
+  .aboutAllPicturesContainer {
+    position: relative;
+
+    img {
+      position: relative;
+      z-index: 6;
+    }
+
+    .aboutAllPicturesDescription {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      color: white;
+      z-index: 1;
+      opacity: 0;
+      background: radial-gradient(circle, rgba(15, 62, 105, 0.42) 1%, rgba(131, 30, 84, 0.25) 100%),
+      url(../img/cornerLefttop.png) left top no-repeat,
+      url(../img/cornerRighttop.png) right top no-repeat,
+      url(../img/cornerLeftbottom.png) left bottom no-repeat,
+      url(../img/cornerRightbottom.png) right bottom no-repeat;
+      transition-property: all;
+      transition-duration: 0.4s;
+      transition-timing-function: ease-in-out;
+
+
+      h5 {
+        font-weight: 800;
+      }
+
+      a {
+        font-style: italic;
+        color: white;
+      }
+
+      .aboutAllPicturesDescriptionText {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+      }
+
+
+    }
+
+  }
+
+
+  .aboutAllPicturesContainer:hover .aboutAllPicturesDescription {
+    display: block;
+    z-index: 11;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+  }
+
+
+}
+
+
+/*contactUS*/
+
+.contactUs {
+  padding-top: 15rem;
+  overflow: hidden;
+
+
+  .backgroundContactUs {
+    margin-right: -15px;
+    margin-top: -1.5rem;
+  }
+
+  .sloganBlack1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+
+  }
+
+  .contactUs-left {
+
+    .requestField {
+      margin: 2rem 1rem;
+      font-style: italic;
+    }
+
+    .requestLabel {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    h5 {
+      margin: -7rem 0 0 1rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+
+    input {
+      width: 90%;
+      border-radius: 0;
+      padding-right: 2rem;
+      font-style: italic;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      outline-offset: 0;
+      border-bottom: 2px solid black;
+    }
+
+    input:active, input:hover, input:focus,
+    textarea:active, textarea:hover, textarea:focus {
+      border-bottom: 2px solid black;
+      box-shadow: none !important;
+      outline: none !important;
+      outline-offset: 0;
+
+    }
+
+    input:active, input:focus,
+    textarea:active, textarea:focus {
+      transition-property: all;
+      transition-duration: 0.3s;
+      border-bottom: 2px solid #d3d3d3;
+    }
+
+    button {
+      margin: 2rem 1rem;
+    }
+
+  }
+
+  .contactUs-right {
+    border-top-left-radius: 13rem;
+    border-bottom-left-radius: 13rem;
+    margin-bottom: 15rem;
+    margin-top: 1rem;
+    background: #DADADA;
+    height: 26rem;
+
+  }
+
+  .phoneImg {
+    margin-top: -5rem;
+    height: 45rem;
+    background: url('../img/phone3.png') center no-repeat;
+    background-size: contain;
+  }
+
+  .phoneImg p {
+    opacity: 0.6;
+    color: white;
+    padding-top: 7rem;
+    margin: 0 2rem;
+    font-size: 7rem;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+}
+
+/*популярные курсы*/
+
+.popularCoursesShadowSlogan {
+  position: absolute;
+  font-size: 15rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 17rem;
+  color: $danger;
+}
+
+.popularCourses {
+  position: relative;
+  overflow: hidden;
+  font-weight: 100;
+  color: white;
+  background: transparent;
+  padding-bottom: 3rem;
+  font-size: 1.2rem;
+
+
+  h6 {
+    margin-bottom: 3rem;
+    text-shadow: 1px 1px 1px #999898, 0 0 1em #ffffff; /* Параметры тени */
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+
+  i {
+    margin: 0 1rem;
+    font-size: 2rem;
+    float: left;
+  }
+
+  p {
+    margin: 0.3rem 1rem 0.1rem 1rem;
+  }
+}
+
+.popularCoursesCards {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+
+  .form-group {
+    margin-top: 3rem;
+
+
+    input {
+      font-size: 1.1rem;
+      font-style: italic;
+      border-radius: 2rem;
+      padding: 1.5rem 1rem;
+      width: 90%;
+      margin: 1.5rem auto;
+
+    }
+  }
+
+  img {
+
+    position: absolute;
+    height: 6rem;
+    top: 0.2rem;
+    right: 1.9rem;
+  }
+
+
+  .item {
+
+    background: white;
+    padding: 0.5rem;
+    color: black;
+    margin: 1rem 0.5rem 4rem 0.5rem;
+
+  }
+
+  h4 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 3rem 0 1.2rem 0;
+    font-size: 1.8rem;
+  }
+
+  .currency {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+
+  h5 {
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $primary;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h6 {
+    margin-top: 1.7rem;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: left;
+    color: black;
+    font-size: 1rem;
+
+  }
+
+  p {
+    margin: 0.2rem 0;
+
+  }
+
+  p i {
+    color: #577B6C;
+    margin: 0.3rem 0.8rem;
+    font-size: 1.1rem;
+
+  }
+
+  button {
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1.5rem 0;
+
+  }
+
+  .successButtonCard1 {
+    font-size: 0.875rem;
+    background-color: $success;
+    padding: 0.75rem 3.2rem;
+  }
+
+  .successButtonCard1:hover {
+    cursor: default;
+    outline: none;
+    padding: 0.75rem 3.2rem;
+  }
+
+
+  .btn-outline-success, .btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active {
+    border: none !important;
+    outline: none !important;
+  }
+
+  button:hover {
+    border: none !important;
+    outline: none !important;
+    color: white;
+    background-color: $success;
+    padding: 1rem 3.2rem;
+  }
+
+  button:active {
+    border: none !important;
+    outline: none !important;
+    color: white;
+    background-color: $success;
+    padding: 1rem 3.2rem;
+  }
+
+}
+
+/*наши преподаватели*/
+
+.ourTeachers {
+  background: #ECECEC;
+  padding-bottom: 4rem;
+
+
+  .sloganBlack2 {
+    font-size: 3.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 5rem;
+    margin: 4rem 0 3rem 1rem;
+
+  }
+
+  .ourTeachers-left {
+    vertical-align: center;
+  }
+
+  .ourTeachers-left h4 {
+    color: black;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+
+  .ourTeachers-left h5 {
+    color: $primary;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  .ourTeachers-left h5 span {
+    font-weight: 600;
+  }
+
+  .ourTeachers-leftText {
+    margin: 1.5rem 0 0.5rem 0;
+
+    p {
+      font-size: 1rem;
+      font-style: italic;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+
+    }
+
+  }
+
+
+  .ourTeachers-right {
+    padding: 1rem;
+
+  }
+
+  .ourTeachers-right img {
+    box-shadow: -1.2rem 0.5rem 1.5rem rgba(0, 0, 0, 0.29);
+  }
+
+}
+
+/*ourTechnique*/
+
+.ourTechnique {
+  padding-bottom: 3rem;
+
+
+  .sloganBlack2 {
+    font-size: 3.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 5rem;
+    margin: 4rem 0 3rem 1rem;
+
+  }
+
+  .ourTechniqueImg {
+    padding: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 3rem;
+  }
+
+  h4 {
+    margin-top: 2rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  .ourTechniqueContent {
+    padding-left: 2rem;
+  }
+
+}
+
+/*reviews*/
+
+.reviews {
+
+  padding-bottom: 3rem;
+  color: white;
+  //background: rgb(255, 216, 7);
+  //background: linear-gradient(180deg, rgba(255, 216, 7, 1) 19%, rgba(255, 172, 7, 1) 100%);
+  background: $primary;
+
+
+  .reviewsContent {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+  }
+
+  .reviewsCards {
+    color: white;
+    font-style: italic;
+
+    img {
+      padding: 0.5rem;
+    }
+
+    .card-body {
+      flex: 1 1 auto;
+      padding: 0.5rem;
+      min-height: 15rem;
+    }
+
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+
+}
+
+
+.owl-themeReviews {
+  color: black;
+}
+
+.owl-themeReviews .card-title {
+  font-weight: 600;
+  text-align: center;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+/*ourContacts*/
+
+/*ourContactsContactUS*/
+
+.ourContactsContactUS {
+  padding-top: 15rem;
+  overflow: hidden;
+
+
+  .backgroundContactUs {
+    margin-right: -15px;
+    margin-top: -1.5rem;
+  }
+
+  .sloganBlack1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+
+  }
+
+  .contactUs-left {
+
+    padding-top: 2rem;
+
+    h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    h5 {
+      margin: -7rem 0 0 1rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+
+    input {
+      width: 90%;
+      border-radius: 0;
+      padding-right: 2rem;
+      font-style: italic;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      outline-offset: 0;
+      border-bottom: 2px solid black;
+    }
+
+    input:active, input:hover, input:focus,
+    textarea:active, textarea:hover, textarea:focus {
+      border-bottom: 2px solid black;
+      box-shadow: none !important;
+      outline: none !important;
+      outline-offset: 0;
+
+    }
+
+    input:active, input:focus,
+    textarea:active, textarea:focus {
+      transition-property: all;
+      transition-duration: 0.3s;
+      border-bottom: 2px solid lightgrey;
+    }
+
+    button {
+      margin: 2rem 1rem;
+    }
+
+  }
+
+  .contactUs-right {
+    border-top-left-radius: 13rem;
+    border-bottom-left-radius: 13rem;
+    margin-bottom: 15rem;
+    margin-top: 1rem;
+    background-color: #DADADA;
+    height: 26rem;
+
+  }
+
+  .phoneImg {
+    margin-top: -5rem;
+    height: 45rem;
+  }
+
+  .phoneImg p {
+    opacity: 0.6;
+    color: white;
+    padding-top: 7rem;
+    margin: 0 2rem;
+    font-size: 7rem;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+}
+
+.ourContact {
+  color: white;
+  background: $primary;
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+
+//SocSti
+
+.socNetIcons a {
+  margin-right: 0.7rem;
+  margin-top: 0.5rem;
+  float: left;
+}
+
+.socNetIcons a:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+}
+
+.ourContact h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+.ourContact h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.7rem 0;
+}
+
+.ourContact p {
+  margin: 0;
+}
+
+
+.footer {
+  color: white;
+  padding: 5rem 1rem;
+  background: $secondary;
+
+  h5 {
+    color: #EBF7FF;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    color: #EBF7FF;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  p {
+    color: #D0DBE2;
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+  }
+
+  a {
+    color: #D0DBE2;
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+  }
+
+  ul {
+    color: #D0DBE2;
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
+
+  .footerSocSet a {
+    float: left;
+    margin: 0.25rem 0.5rem 1.5rem 0;
+
+    img {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+  }
+
+  a:hover {
+    border-radius: 1rem;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+    transition-property: all;
+    transition-duration: 0.2s;
+  }
+
+  button {
+    border-radius: 2rem;
+    font-size: 1rem;
+  }
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+  .fixed-top {
+    right: 0;
+    left: 0;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+  .top-wrapper-index {
+
+    .slogan {
+      text-align: left;
+      margin: 3rem 0 2rem 0;
+      font-size: 3rem;
+      line-height: normal;
+    }
+
+    .layer-2 {
+      width: 50rem;
+      height: 45rem;
+    }
+
+  }
+
+  .whyUs p {
+    margin: 1.5rem 1rem 2.5rem 1rem;
+  }
+
+  .popularCourses {
+    padding-bottom: 0.5rem;
+  }
+
+
+  .ourTeachers-right img {
+    box-shadow: none !important;
+  }
+
+
+  .slogan, .sloganWhite1, .sloganBlack1, .sloganBlack2 {
+    text-align: left;
+    margin: 4rem 0 2rem 1rem;
+    font-size: 1.8rem;
+    line-height: normal;
+  }
+
+
+  .ourContact {
+    text-align: left;
+
+    h3, .contactUs-left h5 {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
+
+  }
+
+  .contactUs {
+
+    padding-top: 8rem;
+
+    .contactUs-left button {
+      font-size: 1rem;
+    }
+
+    .sloganBlack1 {
+      text-align: left;
+      font-size: 1.8rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: normal;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+    }
+
+    .phoneImg {
+      margin-top: -7.5rem;
+    }
+
+    .phoneImg p {
+      opacity: 0.6;
+      color: white;
+      padding-top: 13rem;
+      margin: 0;
+      font-size: 4.5rem;
+      text-align: right;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+
+    .contactUs-left input, .contactUs-left textarea {
+      width: 100%;
+    }
+
+    .contactUs-left button {
+      display: block;
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+
+    .contactUs-right {
+      margin-bottom: 9rem;
+    }
+  }
+
+  .ourTeachers {
+
+    .sloganBlack2 {
+      text-align: left;
+      margin: 4rem 0 2rem 1rem;
+      font-size: 1.8rem;
+      line-height: normal;
+    }
+  }
+
+  .ourTechnique {
+
+    .sloganBlack2 {
+      text-align: left;
+      margin: 4rem 0 2rem 1rem;
+      font-size: 1.8rem;
+      line-height: normal;
+    }
+  }
+
+  .socNetIcons {
+    padding-bottom: 1rem;
+  }
+
+  .socNetIcons a {
+    margin: 0.3rem;
+  }
+
+  .owl-themeTeachers .owl-stage-outer {
+    background: transparent !important;
+  }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+
+
+  .top-wrapper-index {
+    padding-top: 5rem;
+
+    .shadow-slogan {
+      font-size: 14rem;
+      line-height: 14rem;
+    }
+
+    .top-wrapper-left {
+      padding-left: 1rem;
+      margin-top: 5rem;
+
+
+      .slogan {
+        width: 120%;
+        text-align: left;
+        font-size: 1.6rem;
+        line-height: normal;
+        margin-bottom: 0;
+      }
+
+      button {
+        margin: 2rem -3rem 2rem 0;
+        padding: 0.8rem 0.8rem;
+        font-size: 1.0rem;
+
+        i {
+          display: none;
+        }
+      }
+
+
+    }
+
+    .top-wrapper-right {
+      border-top-left-radius: 12rem;
+      border-bottom-left-radius: 12rem;
+      margin-top: 2.5rem;
+      margin-bottom: 3.5rem;
+      height: 24rem;
+
+      .layer-2 {
+        margin-top: 2rem;
+        width: 25rem;
+        height: 25rem;
+        margin-left: -1rem;
+      }
+    }
+  }
+
+  .sloganWhite1, .sloganBlack1, .sloganBlack2 {
+    text-align: left;
+    margin: 2.5rem 0 2rem 0;
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+
+
+  .whyUs {
+    i {
+      margin: 1rem 0.5rem 1rem 0;
+    }
+
+    h6 {
+      font-weight: 200;
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+
+    p {
+      margin: 1.5rem 1rem 2.5rem 0rem;
+    }
+  }
+
+
+  .aboutAllPictures {
+
+    .imgLeft {
+      padding: 2rem 0 0 0;
+      margin: 0;
+    }
+
+    .imgRight {
+      padding: 0;
+    }
+
+    .aboutAllPicturesContainer:hover, .aboutAllPicturesContainer:active, .aboutAllPicturesContainer {
+      .aboutAllPicturesDescription {
+        background: radial-gradient(circle, rgba(15, 62, 105, 0.42) 1%, rgba(131, 30, 84, 0.25) 100%);
+
+        .aboutAllPicturesDescriptionText {
+
+          h5 {
+            font-size: 0.9rem;
+          }
+
+          p, a {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+
+  .contactUs {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+    .backgroundContactUs {
+      margin-right: -15px;
+      margin-top: -1.5rem;
+    }
+
+    .sloganBlack1 {
+      margin-bottom: 2.5rem;
+      margin-left: 0;
+      font-size: 1.6rem;
+
+    }
+
+    .contactUs-left {
+
+      .requestField {
+        margin: 2rem 0;
+        font-style: italic;
+      }
+
+      .requestLabel {
+        font-size: 1rem;
+      }
+
+      button {
+        margin: 2rem 0 !important;
+      }
+
+    }
+
+    .contactUs-right {
+      border-top-left-radius: 8rem;
+      border-bottom-left-radius: 8rem;
+      margin-top: 7rem;
+      margin-bottom: 5rem;
+      height: 16rem;
+
+    }
+
+    .phoneImg {
+      margin-top: 1rem;
+      margin-left: -3rem;
+      height: 20rem;
+      width: 12rem;
+    }
+
+    .phoneImg p {
+      display: none;
+    }
+
+  }
+
+
+  .popularCourses {
+    p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+  }
+
+
+  .popularCoursesCards {
+
+    img {
+      position: absolute;
+      height: 3rem;
+      top: 0.2rem;
+      right: 0.3rem;
+    }
+
+    .popularCoursesCardsItem {
+      padding-right: 0.1rem;
+      padding-left: 0.1rem;
+
+      .item {
+        padding: 0.5rem;
+        margin: 1rem 0 1.5rem 0;
+
+        h4 {
+          margin: 1rem 0;
+          font-size: 0.9rem;
+          text-transform: uppercase;
+        }
+
+        h5 {
+          margin: 1rem 0;
+          font-size: 1.5rem;
+
+          sup {
+            font-size: 1.0rem;
+          }
+        }
+
+        h6 {
+          margin: 0.5rem 0;
+          font-size: 0.8rem;
+        }
+
+        p {
+          font-size: 0.7rem;
+
+          i {
+            margin: 0 0.4rem 0 0;
+            font-size: 0.9rem;
+          }
+        }
+
+        button {
+          font-size: 0.8rem;
+        }
+
+        .successButtonCard1{
+          padding-top: 0.6rem;
+          padding-bottom: 0.6rem;
+        }
+
+        form {
+          margin: 0;
+
+          input {
+            width: 100%;
+            margin: 0.2rem 0;
+            font-size: 0.8rem;
+            font-style: italic;
+            border-radius: 1.1rem;
+            padding: 0.3rem;
+          }
+
+
+          button {
+            margin: 1.1rem auto;
+
+          }
+
+        }
+
+
+      }
+
+
+    }
+
+
+  }
+
+  .ourTeachers {
+
+    .sloganBlack2 {
+      margin: 2rem 0 1rem 0;
+      font-size: 1.6rem;
+      line-height: normal;
+    }
+
+    .ourTeachersWrapper {
+      padding: 0;
+
+
+      .ourTeachers-left {
+        overflow: hidden;
+        position: relative;
+        height: 35rem;
+      }
+
+      .ourTeachers-left:after {
+        content: "";
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 5rem;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ECECEC 100%);
+        pointer-events: none;
+      }
+
+      h4 {
+        font-size: 1.1rem;
+      }
+      h5 {
+        font-size: 1.0rem;
+        margin-bottom: 0;
+      }
+      p {
+          font-size: 0.9rem;
+        }
+    }
+
+  }
+
+
+  .ourTechnique {
+
+    .sloganBlack2 {
+      margin: 2rem 0 1rem 0;
+      font-size: 1.6rem;
+    }
+
+    .ourTechniqueContent {
+      padding: 1rem;
+
+      h4 {
+        margin-top: 0;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+      p{
+        font-size: 0.9rem;
+      }
+    }
+
+    .ourTechnique .ourTechniqueImg {
+      padding: 1rem;
+    }
+
+  }
+
+
+  .reviews {
+
+    .reviewsCards {
+      padding-right: 0;
+      padding-left: 0;
+      color: white;
+      font-style: italic;
+
+      .card-body {
+        flex: 1 1 auto;
+        padding: 0.5rem;
+        height: 15rem;
+
+        h5 {
+          font-size: 1.1rem;
+        }
+        p{
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+
+
+
+  .footer {
+    padding: 2rem 0;
+
+
+    .col-12 {
+      margin: 1rem 0;
+
+      h5 {
+        margin-bottom: 0.8rem;
+        font-size: 1.5rem;
+      }
+
+      h6 {
+        font-size: 1.3rem;
+      }
+
+      ul {
+        font-size: 1rem;
+        line-height: 1.9rem;
+      }
+
+
+    }
+
+
+  }
+
+
+  .contactUsModal {
+
+    .modal-header {
+      h4 {
+        font-size: 1.1rem;
+      }
+
+    }
+    .modal-body {
+      padding:1rem 0;
+    }
+
+    .requestField {
+      margin: 1rem 1rem;
+      font-style: italic;
+    }
+
+    .requestLabel {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+
+    input {
+      padding-top: 0;
+      font-style: italic;
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      outline-offset: 0;
+      border-bottom: 2px solid black;
+    }
+
+
+    input:active, input:hover, input:focus {
+      border-bottom: 2px solid black;
+      box-shadow: none;
+      outline: none;
+      outline-offset: 0;
+
+    }
+
+    input:active, input:focus {
+      transition-property: all;
+      transition-duration: 0.3s;
+      border-bottom: 2px solid lightgrey;
+    }
+
+
+    .btn-rounded {
+      margin: 2rem 0;
+      font-size: 1rem;
+    }
+
+    .btn-rounded:hover {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    #myModalButtonInfo {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+  }
+
+
+
+}

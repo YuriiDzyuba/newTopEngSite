@@ -1,0 +1,458 @@
+@@include('../HTMLparts/header.html',{
+"lang":"uk",
+"description":"Курси англійської онлайн, підготовка до ЗНО онлайн, індивідуальні заняття з англійської по скайпу, групові заняття з англійської в zoom. англійська онлайн. Підготовка до ЗНО. Підготовка до IELTS. Уроки англійської мови для дітей по скайпу",
+"title":"Курси англійської онлайн. Англійська мова за skype and zoom",
+"keywords":"Курси англійської для дітей та дорослих, англійська онлайн, уроки англійської online, англійська мова, підготовка до ЗНО в zoom, курси для школярів, уроки, курси, репетитор, english, online, skype, zoom, скайп, зум, онлайн в зуме, вчитель англійського, англійська в групах",
+"ogTitle":"Англійський online",
+"ogUrl":"english_online.html",
+"ogImage":"img/logoIcon.png",
+"ogSiteName":"Top English School – Курси англійської для дорослих. Англійська мова в групах. Англійська мова онлайн",
+"iconScr":"img/logoIcon.png",
+"styleHref":"styles/style.min.css",
+})
+<body>
+<div class="container-fluid">
+    <!--    .............navBar..................     -->
+
+    @@include('../HTMLparts/navBar.html', {
+    "navbarBrandHref":"/",
+    "imgSrc":"img/logo2.png",
+    "img2SrcMini":"img/logo.png",
+    "linkLanguageHref":"ru/english_online.html",
+    "linkLanguageHrefValue":"RU",
+    "linkLogInHref":"#",
+    "linkLogINValue":"logIN",
+    "isVisibleLogIN":"d-none",
+    "li5":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li6":{
+    "href":"",
+    "value":"",
+    "isActive":"d-none"
+    },
+    "li1":{
+    "href":"english_for_children.html",
+    "value":"Для дітей",
+    "isActive":""
+    },
+    "li2":{
+    "href":"english_for_adults.html",
+    "value":"Для дорослих",
+    "isActive":""
+    },
+    "li3":{
+    "href":"english_online.html",
+    "value":"Курси online",
+    "isActive":"active"
+    },
+    "li4":{
+    "href":"contact-us.html",
+    "value":"Контакти",
+    "isActive":""
+    },
+
+    })
+
+    <!-- Верхняя обложка -->
+    @@include('../HTMLparts/top-wrapper.html',{
+    "class":"top-wrapper-online",
+    "id":"bgParallax",
+    "shadowSlogan":"English online",
+    "slogan":"Англійська online",
+    "topModalSlogan":"Долучайтесь до нам",
+    "li1": {
+    "class":"fas fa-users",
+    "href":"onlineGroupLessonsForChildren",
+    "value":"Для дітей",
+    },
+    "li2": {
+    "class":"fas fa-users",
+    "href":"onlineGroupLessonsForAdults",
+    "value":"Для дорослих",
+    },
+    "li3": {
+    "class":"fas fa-user-friends",
+    "href":"miniGroupLessons",
+    "value":"В міні-групах",
+    },
+    "li4": {
+    "class":"fas fa-user-check",
+    "href":"individualLessons",
+    "value":"Індивідуально",
+    },
+    "li5": {
+    "class":"fas fa-chalkboard-teacher",
+    "href":"prepairTozno",
+    "value":"Підготовка до ЗНО",
+    },
+    "button": {
+    "target":"myModal",
+    "value":"Пробний урок",
+    }
+    })
+
+    <!-- The Modal -->
+    @@include('../HTMLparts/modal.html',{
+    "h4":"Долучайтесь до нас",
+    "p":"Hа першому безкоштовному занятті Ви пройдете тестування, Вам розкажуть і покажуть, як працює методика школи, познайомлять з програмою і дадуть відповідь на всі запитання. Приходьте!",
+    "label1":"Ваше ім\'я",
+    "placeholder1":"name",
+    "label2":"Ваш телефон*",
+    "placeholder2":"099 123 45 67",
+    "label3":"Коментар",
+    "placeholder3":"Хочу на пробний урок",
+    "button":"Відправити",
+    "buttonSuccess":"Ваше замовлення оформлене",
+    })
+
+    <!--    Ступеньки-->
+    @@include('../HTMLparts/stairs.html',{
+    "column1":{
+    "h4":"Знайомство",
+    "p1":"Залиште заявку на сайті або на пошті. Напишіть нам в viber, telegram, whatsApp або зателефонуйте.",
+    "p2":"Узгодимо деталі і зручний час. Чекаємо Вас в нашій школі."
+    },
+    "column2":{
+    "h4":"Тестування",
+    "p1":"На пробному уроці ми познайомимося проведемо коротке тестування. Наші спеціалісти дадуть відповіді на всі Ваші запитання.",
+    "p2":"Ми підберемо для Вас відповідний курс і узгодимо графік."
+    },
+    "column3":{
+    "h4":"Заняття",
+    "p1":"Практикуйтеся в усному мовленні, спілкуйтеся, вчіть граматичні конструкції і отримуйте задоволення від занять, а ми Вам у цьому допоможемо.",
+    "p2":"Займайтеся з нами and Let's reach the top together!"
+    },
+
+    })
+    <!--    lessons-->
+
+
+    <!--  ++++++++++++Груповые заятия для детей+++++++++++++++++++++++++     -->
+
+    @@include('../HTMLparts/lessonGrey.html', {
+    "id": "onlineGroupLessonsForChildren",
+    "h3": "В групах для дітей online",
+    "h5": "",
+    "forWhy": "Для дітей 6-17 років",
+    "periodicity":"2 рази на тиждень по 60 хв",
+    "duration": "Тривалість курсу: 5-6 місяців",
+    "begin": "Початок занять пн-пт: 10:00 - 20:00",
+    "h4text":"В групах 3-6 осіб",
+    "p1":"На курсах online виконують різноманітні завдання, спілкуються з учителем і одногрупниками, вивчають граматику, слова та вчаться сприймати мову на слух.",
+    "p2":"Заняття онлайн роблять освіту більш сучасною та практичною, автоматизують процес виконання домашньої роботи і завдань на уроці.",
+    "p3":"Також заняття онлайн дозволяють ділити учнів на пари і команди для більш ефективної практики.",
+    "p4":"",
+    "h5Cost":"Вартість:",
+    "pCost":"790",
+    "pCostSub":"грн/місяць",
+    "h5CostOr":"",
+    "pCostOr":"",
+    "pCostSubOr":"",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/groupForChildren.png",
+    "img2":"img/cl1.svg",
+    "img3":"img/cl2.svg",
+    }
+
+    })
+
+    <!--  ++++++++++++В группах для взрослых+++++++++++++++++++++++++     -->
+
+    @@include('../HTMLparts/lessonWhite.html', {
+    "id": "onlineGroupLessonsForAdults",
+    "h3": "В групах для дорослих online",
+    "h5": "",
+    "forWhy": "Для дорослих від 17 років",
+    "periodicity":"2 рази на тиждень по 60хв",
+    "duration": "Тривалість курсу 5-6 місяців",
+    "begin": "Початок занять: пн - пт 10:00 - 20:00",
+    "h4text":"В групах 3-6 осіб",
+    "p1":"У порівнянні з класичним вивченням англійської мови, заняття онлайн мають ряд переваг: більш гнучкий графік, комфортна обстановка, економія часу на дорогу, можливість записати урок та переглянути у зручний час, постійно бути на з'явзку з викладачем.",
+    "p2":"Уроки англійської онлайн проводяться в режимі відеоконференції за допомогою сучасних додатків, таких як zoom і skype.",
+    "p3":"Курси англійської онлайн підійдуть для тих хто хоче покращити англійську перед відпусткою, змінити роботу і для тих, хто збирається зробити англійську своєю другою рідною мовою.",
+    "p4":"Для вибору найбільш підходящою групи Ви пройдете тестування (безкоштовний початковий урок),на якому Ми визначимо Ваш рівень, обговоримо цілі і графік занять.",
+    "h5Cost":"Вартість:",
+    "pCost":"1440",
+    "pCostSub":"грн/8 занять",
+    "h5CostOr":"",
+    "pCostOr":"",
+    "pCostSubOr":"",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/groupLessonsForAdults.png",
+    "img2":"img/cl1.svg",
+    "img3":"img/cl2.svg",
+    }
+
+    })
+
+
+</div> <!--container-fluid-->
+
+<!--     ++++++++++++++++++   we are in social Networks  ++++++++++++++++++++++++++++++++-->
+@@include('../HTMLparts/weInSocNetworks.html',{
+"parallaxImageSrc":"../img/business-meeting.jpg",
+"h4":"Долучайтесь до нас",
+"p1":"Будьте в курсі останніх новин. Слідкуйте за новинками, акціями та розкладом.",
+"p2":"Беріть участь в конкурсах. Спілкуйтеся з викладачами і студентами. Задавайте питання",
+"h5":"Підпишіться на нашу email розсилку",
+"button": {
+"target":"Підписка оформлена",
+"value":"Підписатися"
+},
+"socseth5":"Ми в соціальних мережах:",
+
+})
+
+<div class="container-fluid">
+    <!--    lessons-->
+
+    <!-- ++++++++++++++++++++++++++online в мини-группах++++++++++++++++++++++++++++++ -->
+
+    @@include('../HTMLparts/lessonWhite.html', {
+    "id": "miniGroupLessons",
+    "h3": "online в міні-групах",
+    "h5": "",
+    "forWhy": "Для дітей. Для дорослих",
+    "periodicity":"2-3 рази в тиждень по 60 хв",
+    "duration": "Тривалість курсу до 5ти місяців",
+    "begin": "Початок занять: по домовленості",
+    "h4text":"Для кого підійдуть?",
+    "p1":"Заняття в міні-групах - найєфективніший вид занять, адже він поєднує в собі усі переваги групових та індивідуальних: можливість спылкування іноземною мовою не лише з викладачем, динамычність заняття, індивідуальний підхід. Процес навчання сприяє розвитку здорової конкуренції, швидше допомагає подолати мовний бар'єр",
+    "p2":"Приходьте на заняття разом з друзями, членами сім'ї або другою половинкою і вчіться разом. Таким чином, у вас з'явиться нове спільне хобі, тема для обговорень і, звичайно ж, процес навчання з рідною людиною - це завжди веселощі і продуктивніше.",
+    "p3":"",
+    "p4":"",
+    "h5Cost":"Вартість:",
+    "pCost":"320",
+    "pCostSub":"грн/одне заняття",
+    "h5CostOr":"або",
+    "pCostOr":"3000",
+    "pCostSubOr":"грн/10 занять",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/miniGroupOnline.png",
+    "img2":"img/cl1.svg",
+    "img3":"img/cl2.svg",
+    }
+
+    })
+
+    <!-- ++++++++++++++++++++++++++Индивидуальные занятия online++++++++++++++++++++++++++++++ -->
+
+    @@include('../HTMLparts/lessonGrey.html', {
+    "id": "individualLessons",
+    "h3": "Індивідуальні заняття online",
+    "h5": "",
+    "forWhy": "Для дітей. Для дорослих",
+    "periodicity":"2-3 рази на тиждень по 60 хв",
+    "duration": "Тривалість курсу: до 5ти місяців",
+    "begin": "Початок занять: по домовленості",
+    "h4text":"Для кого підійдуть?",
+    "p1":"Вибирайте індивідуальні заняття, якщо у Вас стислі терміни і Вам необхідно за короткий період часу підготуватися до спілкування з іноземцями, пройти співбесіду англійською мовою або ж Ви зібралися в подорож і хочете себе вільно почувати в незнайомій країні.",
+    "p2":"Цілі і завдання обговорюються перед початком курсу індивідуально з викладачем.",
+    "p3":"Також індивідуальні заняття ідеально підійдуть для підготовки до ЗНО, доповнять групове навчання курсів для дітей і курсів для дорослих.",
+    "p4":"",
+    "h5Cost":"Вартість:",
+    "pCost":"320",
+    "pCostSub":"грн/заняття",
+    "h5CostOr":"або",
+    "pCostOr":"3000",
+    "pCostSubOr":"грн/10 занять",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/ind.png",
+    "img2":"img/cl1.svg",
+    "img3":"img/cl2.svg",
+    }
+
+    })
+
+
+    <!-- ++++++++++++++++++++++++++ Подготовка к ЗНО  ++++++++++++++++++++++++++++++ -->
+
+    @@include('../HTMLparts/lessonWhite.html', {
+    "id": "prepairTozno",
+    "h3": "Підготовка до ЗНО online",
+    "h5": "",
+    "forWhy": "Для учнів 10-11 класів",
+    "periodicity":"2 рази на тиждень по 60 хв",
+    "duration": "тривалість курса: 5-8 місяців",
+    "begin": "Початок занять: по домовленості",
+    "h4text":"В групах 3-6 осіб",
+    "p1":"Підготовка до ЗНО вимагає від викладача спеціальних навичок і кваліфікації. На відміну від розмовного курсу і курсів для школярів, підготовка до ЗНО дає учням чіткі інструкції і базу знань для успішного складання тесту.",
+    "p2":"Наш курс включає в себе підготовку по чотирьох головних частинах тесту: аудіювання, читання, письмо, використання англійської мови (граматика).",
+    "p3":"Завдяки спеціально розробленій програмі, наші випускники регулярно здають ЗНО на високий бал. З прикладами робіт Ви зможете ознайомитись на пробному уроці.",
+    "p4":"",
+    "h5Cost":"Вартість:",
+    "pCost":"1080",
+    "pCostSub":"грн/8 занять",
+    "h5CostOr":"",
+    "pCostOr":"",
+    "pCostSubOr":"",
+    "buttons": {
+    "greenValue":"Замовити консультацію",
+    "greenTarget":"#myModal",
+    "redValue":"Безкоштовний урок",
+    "redTarget":"#myModal",
+    },
+    "links":{
+    "img1":"img/zno.png",
+    "img2":"img/cl1.svg",
+    "img3":"img/cl2.svg",
+    }
+
+    })
+
+    <!--  footer  -->
+
+    @@include('../HTMLparts/footer.html',{
+    "col1":{
+    "h5":"Наші послуги",
+    "h6":"Курси:",
+    "li1Value":"Англійська для дорослих",
+    "li1href":"english_for_adults.html",
+    "li2Value":"Англійська для дітей",
+    "li2href":"english_for_children.html",
+    "li3Value":"Заняття online",
+    "li3href":"english_online.html",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+    "col2":{
+    "h5":"Наші контакти",
+    "h6":"Адреса:",
+    "li_1Value":"проспект Оболонський, 30",
+    "h6_2":"Телефони:",
+    "li_2_1Value":"+38 (067)775-34-23",
+    "li_2_2Value":"+38 (095)762-38-23",
+    "li_2_3Value":"+38 (073)060-69-23",
+    "h6_3":"Пошта:",
+    "li_3_1Value":"mail@top-english.com.ua",
+    "li_3_2Value":"",
+    },
+    "col3":{
+    "h5":"Ми в соцмережах:",
+    "facebookSrc":"https://www.facebook.com/TopEnglishKyiv",
+    "facebookImageSrc":"img/facebook-icon.png",
+    "instagramSrc":"https://www.instagram.com/top_english_obolon/",
+    "instagramImageSrc":"img/insgram-icon.png",
+    },
+    "col4":{
+    "h5":"Інформація",
+    "h6":"Наша школа:",
+    "li1Value":"Викладачі",
+    "li1href":"/#ourTeachers",
+    "li2Value":"",
+    "li2href":"",
+    "li3Value":"",
+    "li3href":"",
+    "li4Value":"",
+    "li4href":"",
+    "li5Value":"",
+    "li5href":"",
+    "h6_2":"Навчальні матеріали:",
+    "li1_1Value":"",
+    "li1_1href":"",
+    "li1_2Value":"",
+    "li1_2href":"",
+    },
+
+    })
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myParalaxBg.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/modalFormValidator.js"></script>
+<script src="js/emailFormValidator.js"></script>
+<script src="js/lessonParallax.js"></script>
+<script> let p1 = new b_backgroundParallax('#bgParallax');</script>
+<script> let lp1 = new lessonParallax('#imgParallaxonlineGroupLessonsForChildren');</script>
+<script> let lpa1 = new lessonParallax('#imgParallaxonlineGroupLessonsForAdults');</script>
+<script> let lp2 = new lessonParallax('#imgParallaxminiGroupLessons');</script>
+<script> let lp3 = new lessonParallax('#imgParallaxindividualLessons');</script>
+<script> let lp4 = new lessonParallax('#imgParallaxprepairTozno');</script>
+<script> let mv1 = new modal('#myModalForm');</script>
+<script> let e1 = new emailForm('#emailForm');</script>
+<script>
+    $('#myModal').on('show.bs.modal', function (event) {
+        let button = $(event.relatedTarget)
+        let lessonButtonAction = button.hasClass('lessonButtonAction')
+        let infoButtonAction = button.hasClass('infoButtonAction')
+        let recipient = button.data('whatever')
+        let type = button.text()
+        let modal = $(this)
+        if (lessonButtonAction) {
+            let path = `english online ${type} ${recipient}`
+            let pathString = path.split(' ').join('')
+            modal.find('.modal-title').text(type+" - "+recipient)
+            modal.find('.modal-body p').addClass("d-none")
+            modal.find('.modal-body form').attr("name", pathString)
+        } else if (infoButtonAction) {
+            modal.find('.modal-title').text(""+recipient)
+            modal.find('.modal-body p').removeClass("d-none")
+            modal.find('.modal-body form').attr("name", recipient)
+        }
+    })
+</script>
+<script>
+    jQuery(document).ready(function () {
+        jQuery(window).bind("load", function () {
+            //Пример исключения ссылки:
+            //jQuery('a[href*="#"]:not([href="#"],[href="#spu-209"],[href="#spu-211"],[href="#spu-212"],[href="#spu-213"],[href="#spu-214"],[href="#spu-215"],[href="#spu-217"])').click(function() {
+            jQuery('a:not(.spu-clickable)[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+                    location.hostname == this.hostname) {
+                    var target = jQuery(this.hash);
+                    target = target.length ? target : jQuery('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        jQuery("html, body").animate({
+                            // $('html, body').animate({
+                            scrollTop: target.offset().top - 100
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    });
+
+</script>
+</body>
+</html>
