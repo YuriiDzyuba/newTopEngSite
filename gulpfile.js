@@ -1,4 +1,4 @@
-const {src, dest, series, watch} = require('gulp')
+const {src, dest, series, watch, parallel} = require('gulp')
 const sass = require('gulp-sass')
 const csso = require('gulp-csso')
 const include = require('gulp-file-include')
@@ -12,6 +12,11 @@ const uglifyEs = require('gulp-uglify-es').default
 const rename = require("gulp-rename")
 const babel = require('gulp-babel');
 const imageMin = require('gulp-imagemin');
+const webp = require('gulp-webp');
+const webpHTML = require('gulp-webp-html');
+const ttf2woff = require('gulp-ttf2woff');
+const ttf2woff2 = require('gulp-ttf2woff2');
+const fs = require('fs');
 
 
 let projectFolder = "dist",
@@ -41,15 +46,17 @@ let path = {
     clean: "./" + projectFolder + "/"
 }
 
+
+
 function html() {
     return src('src/html/**/**.html')
         .pipe(include({
             prefix: '@@'
         }))
-        // .pipe(webpHTML())
         .pipe(htmlmin({
             collapseWhitespace: false
         }))
+        // .pipe(webpHTML())
         .pipe(dest('dist'))
 }
 
@@ -58,14 +65,14 @@ function scss() {
         'src/scss/style.scss'
     ])
         .pipe(sass())
-        // .pipe(autoprefixer({
-        //     overrideBrowserslist: ['last 2 versions']
-        // }))
-        //.pipe(concat('style.scss'))
-        // .pipe(cssGroup())
-        // .pipe(csso({
-        //     comments:false
-        // }))
+        .pipe(autoprefixer({
+            overrideBrowserslist: ['last 2 versions']
+        }))
+        // .pipe(concat('style.scss'))
+        .pipe(cssGroup())
+        .pipe(csso({
+            comments:false
+        }))
         .pipe(
             rename({
                 extname: '.min.css'
@@ -74,37 +81,15 @@ function scss() {
         .pipe(dest('dist/styles'))
 }
 
-// function js() {
-//     return src([
-//         'src/js/parallax.min.js',
-//         'src/js/jquery.min.js',
-//         'src/paralaxBackground1/js/myParalaxBg.js',
-//         'src/js/bootstrap.bundle.min.js',
-//         'src/js/owl.carousel.min.js',
-//         'src/js/popper.min.js',
-//         'src/js/main.js'
-//
-//     ])
-//         .pipe(include({
-//             prefix: '@@'
-//         }))
-//         .pipe(babel({
-//             presets: ['@babel/env']
-//         }))
-//         .pipe(uglifyEs())
-//         .pipe(dest('dist/js'))
-// }
-
 
 function js() {
     return src([
         'src/js/parallax.min.js',
         'src/js/jquery.min.js',
-        'src/paralaxBackground1/js/myParalaxBg.js',
+        'src/js/myParalaxBg.js',
         'src/js/bootstrap.min.js',
         'src/js/owl.carousel.min.js',
         'src/js/popper.min.js',
-        'src/js/main.js',
         'src/js/formValidator.js',
         'src/js/formValidatorIndexCards.js',
         'src/js/modalFormValidator.js',
@@ -112,14 +97,23 @@ function js() {
         'src/js/wow.min.js',
         'src/js/lessonParallax.js'
     ])
+        // .pipe(babel({
+        //     presets: ['@babel/env']
+        // }))
+        .pipe(uglifyEs())
         .pipe(dest('dist/js'))
 }
 
 
-
-
 function img() {
-    return src('src/img/*.{jpg,png,svg,gif,ico,webp}')
+    // src('src/img/*.{jpg,png,gif,webp}')
+    //     .pipe(
+    //         webp({
+    //             quality: 70
+    //         })
+    //     )
+    //     .pipe(dest('dist/img'))
+    return (src('src/img/*.{jpg,png,svg,gif,ico}'))
         .pipe(
             imageMin({
                 interlaced: true,
@@ -136,9 +130,11 @@ function img() {
 }
 
 function fonts() {
-    return src('src/fonts/*.ttf')
+    return src('src/fonts/*.{eot,otf,svg,ttf,woff}')
         .pipe(dest('dist/fonts'))
 }
+
+
 
 function clear() {
     return del('dist')
@@ -162,12 +158,14 @@ function serve() {
 }
 
 
-
-
-
-exports.build = series(clear, scss, fonts, js, img, html)
+exports.build = series(clear, parallel(scss, fonts, js, img, html))
 exports.serve = series(clear, scss, fonts, js, img, html, serve)
+exports.build2 = series(clear, parallel(scss, fonts, js, html))
 
 exports.clear = clear
 exports.img = img
 exports.html = html
+exports.fonts = fonts
+exports.js = js
+exports.scss = scss
+exports.start = serve

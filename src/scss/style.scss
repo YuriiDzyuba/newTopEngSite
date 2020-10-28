@@ -7,6 +7,61 @@
 @import "forChildren";
 @import "animate.min";
 
+@font-face {
+  font-family: 'Rubik-Black';
+  src: url('../fonts/Rubik-Black.eot');
+  src: local('Rubik-Black'), url('../fonts/Rubik-Black.woff') format('woff'), url('../fonts/Rubik-Black.ttf') format('truetype'), url('../fonts/Rubik-Black.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url('../fonts/Rubik-Bold.eot');
+  src: local('Rubik-Bold'), url('../fonts/Rubik-Bold.woff') format('woff'), url('../fonts/Rubik-Bold.ttf') format('truetype'), url('../fonts/Rubik-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-BoldItalic';
+  src: url('../fonts/Rubik-BoldItalic.eot');
+  src: local('Rubik-BoldItalic'), url('../fonts/Rubik-BoldItalic.woff') format('woff'), url('../fonts/Rubik-BoldItalic.ttf') format('truetype'), url('../fonts/Rubik-BoldItalic.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Italic';
+  src: url('../fonts/Rubik-Italic.eot');
+  src: local('Rubik-Italic'), url('../fonts/Rubik-Italic.woff') format('woff'), url('../fonts/Rubik-Italic.ttf') format('truetype'), url('../fonts/Rubik-Italic.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: url('../fonts/Rubik-Medium.eot');
+  src: local('☺'), url('../fonts/Rubik-Medium.woff') format('woff'), url('../fonts/Rubik-Medium.ttf') format('truetype'), url('../fonts/Rubik-Medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-MediumItalic';
+  src: url('../fonts/Rubik-MediumItalic.eot');
+  src: local('Rubik-MediumItalic'), url('../fonts/Rubik-MediumItalic.woff') format('woff'), url('../fonts/Rubik-MediumItalic.ttf') format('truetype'), url('../fonts/Rubik-MediumItalic.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Regular';
+  src: url('../fonts/Rubik-Regular.eot');
+  src: local('Rubik-Regular'), url('../fonts/Rubik-Regular.woff') format('woff'), url('../fonts/Rubik-Regular.ttf') format('truetype'), url('../fonts/Rubik-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .container-fluid {
   max-width: 1600px;
@@ -164,7 +219,7 @@ body {
   .shadow-slogan {
     position: absolute;
     font-size: 22rem;
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
     line-height: 22rem;
     color: white;
@@ -318,7 +373,7 @@ body {
 
 
       h5 {
-        font-weight: 800;
+        font-weight: 900;
       }
 
       a {
@@ -457,10 +512,10 @@ body {
     color: white;
     padding-top: 7rem;
     margin: 0 2rem;
-    font-size: 7rem;
+    font-size: 6.2rem;
     text-align: right;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
   }
 
 }
@@ -552,13 +607,14 @@ body {
 
   .currency {
     font-size: 1.7rem;
-    font-weight: bold;
+    font-weight: 900;
+    margin-left: 0.3rem;
   }
 
   h5 {
     font-style: italic;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
     color: $primary;
     font-size: 3rem;
     text-align: center;
@@ -888,7 +944,7 @@ body {
     font-size: 7rem;
     text-align: right;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
   }
 
 }
@@ -1091,7 +1147,7 @@ body {
       font-size: 4.5rem;
       text-align: right;
       text-transform: uppercase;
-      font-weight: bold;
+      font-weight: 900;
     }
 
 
@@ -1460,7 +1516,7 @@ body {
       h4 {
         margin-top: 0;
         font-size: 1.1rem;
-        font-weight: bold;
+        font-weight: 800;
       }
       p{
         font-size: 0.9rem;
