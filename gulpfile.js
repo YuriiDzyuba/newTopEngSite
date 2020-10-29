@@ -54,7 +54,7 @@ function html() {
             prefix: '@@'
         }))
         .pipe(htmlmin({
-            collapseWhitespace: false
+            collapseWhitespace: true
         }))
         // .pipe(webpHTML())
         .pipe(dest('dist'))
