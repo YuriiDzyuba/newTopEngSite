@@ -12,7 +12,7 @@ class emailForm {
         let inputName = event.target.getAttribute("name")
        if (isEmailTrue) {
            $.ajax({
-               'url': 'http://top-english.com.ua/mail.php?t='/*что то уникальное после ? t=*/ + new Date().getTime()/*дата или время что то что не повторяеться чтобы небыло кеша*/
+               'url': 'https://top-english.com.ua/mail.php?t='/*что то уникальное после ? t=*/ + new Date().getTime()/*дата или время что то что не повторяеться чтобы небыло кеша*/
                , 'method': 'POST'// метод
                , 'dataType': 'json'
                , 'timeout': 5000 //время через сколько времени должен прийти ответ от сервера
